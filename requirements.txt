@@ -1,0 +1,4 @@
+opencv-python
+paddleocr>=3.0.0
+paddlepaddle
+jiwer
