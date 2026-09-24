@@ -1,3 +1,4 @@
 paddle-env/
 __pycache__/
-*.pycdebug_output/
+*.pyc
+debug_output/
