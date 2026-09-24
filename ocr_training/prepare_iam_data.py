@@ -26,19 +26,25 @@ import os
 import random
 
 
-def parse_lines_txt(lines_txt_path):
-    """Yields (line_id, status, text) for every entry in IAM's lines.txt."""
-    with open(lines_txt_path, encoding="utf-8") as f:
+def parse_ascii_txt(txt_path, fmt):
+    """Yields (line_id, status, text) for every entry in IAM's lines.txt or words.txt.
+
+    lines.txt fields:  id status graylevel components x y w h TEXT
+                        (text starts at field index 8)
+    words.txt fields:  id status graylevel components x y w h TAG TEXT
+                        (an extra grammatical-tag field before the text,
+                        so text starts at field index 9)
+    """
+    text_start_index = 8 if fmt == "line" else 9
+    with open(txt_path, encoding="utf-8") as f:
         for raw in f:
             raw = raw.strip()
             if not raw or raw.startswith("#"):
                 continue
             parts = raw.split(" ")
-            line_id = parts[0]           # e.g. a01-000u-00
-            status = parts[1]            # "ok" or "err" segmentation
-            # Transcription is everything after the 8 metadata fields,
-            # with IAM's "|" standing in for spaces.
-            text = " ".join(parts[8:]).replace("|", " ")
+            line_id = parts[0]
+            status = parts[1]
+            text = " ".join(parts[text_start_index:]).replace("|", " ")
             yield line_id, status, text
 
 
@@ -51,8 +57,14 @@ def resolve_image_path(line_id, img_root):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--lines-txt", required=True, help="Path to IAM's ascii/lines.txt")
-    ap.add_argument("--img-root", required=True, help="Root folder of extracted line PNGs")
+    ap.add_argument("--lines-txt", required=True,
+                     help="Path to IAM's ascii/lines.txt or ascii/words.txt")
+    ap.add_argument("--format", choices=["line", "word"], default="line",
+                     help="'line' for lines.txt (text starts at field 8), "
+                          "'word' for words.txt, which has an extra grammatical-tag "
+                          "field before the text (text starts at field 9). "
+                          "Default: line")
+    ap.add_argument("--img-root", required=True, help="Root folder of extracted line/word PNGs")
     ap.add_argument("--out-dir", default=".", help="Where to write train_list.txt / val_list.txt")
     ap.add_argument("--val-split", type=float, default=0.1)
     ap.add_argument("--include-err-segmentation", action="store_true",
@@ -65,7 +77,7 @@ def main():
     kept, skipped_status, skipped_missing = 0, 0, 0
     pairs = []
 
-    for line_id, status, text in parse_lines_txt(args.lines_txt):
+    for line_id, status, text in parse_ascii_txt(args.lines_txt, args.format):
         if status != "ok" and not args.include_err_segmentation:
             skipped_status += 1
             continue
