@@ -51,15 +51,19 @@ def downscale_if_needed(image_path, max_side=MAX_SIDE):
     scale = max_side / longest
     resized = cv2.resize(img, (int(w * scale), int(h * scale)), interpolation=cv2.INTER_AREA)
 
-    base = os.path.splitext(image_path)[0]
-    resized_path = f"{base}_resized_for_ocr.jpg"
+    debug_dir = os.path.join(os.path.dirname(os.path.abspath(image_path)), "debug_output")
+    os.makedirs(debug_dir, exist_ok=True)
+    base = os.path.splitext(os.path.basename(image_path))[0]
+    resized_path = os.path.join(debug_dir, f"{base}_resized_for_ocr.jpg")
     cv2.imwrite(resized_path, resized)
     print(f"Downscaled {w}x{h} -> {resized.shape[1]}x{resized.shape[0]}, saved to {resized_path}")
     return resized_path
 
 
 def main(image_path):
-    base = os.path.splitext(image_path)[0]
+    debug_dir = os.path.join(os.path.dirname(os.path.abspath(image_path)), "debug_output")
+    os.makedirs(debug_dir, exist_ok=True)
+    base = os.path.join(debug_dir, os.path.splitext(os.path.basename(image_path))[0])
 
     image_path = downscale_if_needed(image_path)
 
