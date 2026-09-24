@@ -35,13 +35,18 @@ def parse_ascii_txt(txt_path, fmt):
                         (an extra grammatical-tag field before the text,
                         so text starts at field index 9)
     """
-    text_start_index = 8 if fmt == "line" else 9
+    text_start_index = 8
+    min_fields = text_start_index + 1
     with open(txt_path, encoding="utf-8") as f:
-        for raw in f:
+        for lineno, raw in enumerate(f, 1):
             raw = raw.strip()
             if not raw or raw.startswith("#"):
                 continue
             parts = raw.split(" ")
+            if len(parts) < min_fields:
+                print(f"Warning: skipping malformed line {lineno} "
+                      f"({len(parts)} field(s), need >= {min_fields}): {raw!r}")
+                continue
             line_id = parts[0]
             status = parts[1]
             text = " ".join(parts[text_start_index:]).replace("|", " ")
