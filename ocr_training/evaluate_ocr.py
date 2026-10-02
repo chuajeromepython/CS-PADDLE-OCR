@@ -39,6 +39,18 @@ except ImportError:
 from paddleocr import PaddleOCR
 
 
+def stock_detector_name(lang="en"):
+    """Name of the detector PaddleOCR picks for `lang` when no model options are
+    given. PaddleOCR ignores `lang` as soon as you pass a recognition model dir,
+    so we pass this detector explicitly to keep stock and fine-tuned runs
+    comparable (same detector, only the recognizer differs)."""
+    try:
+        det_name, _ = PaddleOCR._get_ocr_model_names(None, lang, None)
+        return det_name
+    except Exception:
+        return None
+
+
 def load_eval_pairs(eval_dir):
     """Finds every <name>.jpg/.png with a matching <name>.txt ground truth."""
     pairs = []
@@ -106,7 +118,13 @@ def main():
 
     if args.rec_model_dir:
         print(f"Loading fine-tuned model from {args.rec_model_dir} ...")
-        ft_ocr = PaddleOCR(rec_model_dir=args.rec_model_dir, **common_kwargs)
+        ft_kwargs = {k: v for k, v in common_kwargs.items() if k != "lang"}
+        ft_kwargs["text_recognition_model_dir"] = args.rec_model_dir
+        ft_kwargs["text_recognition_model_name"] = "en_PP-OCRv4_mobile_rec"
+        det_name = stock_detector_name("en")
+        if det_name:
+            ft_kwargs["text_detection_model_name"] = det_name
+        ft_ocr = PaddleOCR(**ft_kwargs)
         ft_cer, ft_wer = score(ft_ocr, pairs, "Fine-tuned model")
 
     if args.compare_stock or not args.rec_model_dir:

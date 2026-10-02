@@ -43,6 +43,18 @@ from paddleocr import PaddleOCR
 MAX_SIDE = 2000
 
 
+def stock_detector_name(lang="en"):
+    """Name of the detector PaddleOCR picks for `lang` when no model options are
+    given. PaddleOCR ignores `lang` as soon as you pass a recognition model dir,
+    so we pass this detector explicitly to keep stock and fine-tuned runs
+    comparable (same detector, only the recognizer differs)."""
+    try:
+        det_name, _ = PaddleOCR._get_ocr_model_names(None, lang, None)
+        return det_name
+    except Exception:
+        return None
+
+
 def downscale_if_needed(image_path, max_side=MAX_SIDE):
     img = cv2.imread(image_path)
     h, w = img.shape[:2]
@@ -85,7 +97,14 @@ def main(image_path, rec_model_dir=None):
     )
     if rec_model_dir:
         print(f"Using fine-tuned recognition model: {rec_model_dir}")
-        ocr_kwargs["rec_model_dir"] = rec_model_dir
+        # PaddleOCR ignores `lang` once a model option is passed, so drop it
+        # and pick the detector explicitly (same one the stock run uses).
+        ocr_kwargs.pop("lang", None)
+        ocr_kwargs["text_recognition_model_dir"] = rec_model_dir
+        ocr_kwargs["text_recognition_model_name"] = "en_PP-OCRv4_mobile_rec"
+        det_name = stock_detector_name("en")
+        if det_name:
+            ocr_kwargs["text_detection_model_name"] = det_name
     else:
         print("Using stock PP-OCRv4 recognition model.")
     ocr = PaddleOCR(**ocr_kwargs)
