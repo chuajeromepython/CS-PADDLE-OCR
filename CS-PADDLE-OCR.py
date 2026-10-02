@@ -28,8 +28,10 @@ downloaded/cached -- no reinstall needed. This version of the script:
 
 Usage:
     python CS-PADDLE-OCR.py path/to/test_img3.jpg
+    python CS-PADDLE-OCR.py path/to/test_img3.jpg --rec-model-dir ./iam_finetune_infer
 """
 
+import argparse
 import sys
 import os
 import cv2
@@ -60,7 +62,7 @@ def downscale_if_needed(image_path, max_side=MAX_SIDE):
     return resized_path
 
 
-def main(image_path):
+def main(image_path, rec_model_dir=None):
     debug_dir = os.path.join(os.path.dirname(os.path.abspath(image_path)), "debug_output")
     os.makedirs(debug_dir, exist_ok=True)
     base = os.path.join(debug_dir, os.path.splitext(os.path.basename(image_path))[0])
@@ -74,13 +76,19 @@ def main(image_path):
     # The doc-orientation/unwarping stages are switched off since you
     # don't need them for a flat, upright phone photo -- this just skips
     # using those already-downloaded models, no new downloads triggered.
-    ocr = PaddleOCR(
+    ocr_kwargs = dict(
         use_doc_orientation_classify=False,
         use_doc_unwarping=False,
         use_textline_orientation=True,
         lang='en',
         enable_mkldnn=False,
     )
+    if rec_model_dir:
+        print(f"Using fine-tuned recognition model: {rec_model_dir}")
+        ocr_kwargs["rec_model_dir"] = rec_model_dir
+    else:
+        print("Using stock PP-OCRv4 recognition model.")
+    ocr = PaddleOCR(**ocr_kwargs)
 
     print(f"Running OCR on {image_path}...")
     result = ocr.predict(image_path)
@@ -97,14 +105,17 @@ def main(image_path):
     for i, (text, conf) in enumerate(zip(texts, scores)):
         print(f"Line {i + 1}/{len(texts)} (conf {conf:.2f}): {text}")
 
-    out_path = f"{base}_extracted_text_paddle.txt"
+    tag = "_finetuned" if rec_model_dir else ""
+    out_path = f"{base}_extracted_text_paddle{tag}.txt"
     with open(out_path, "w", encoding="utf-8") as f:
         f.write("\n".join(recognized_lines))
 
     print(f"\nSaved: {out_path}")
 
 if __name__ == "__main__":
-    if len(sys.argv) != 2:
-        print("Usage: python CS-PADDLE-OCR.py path/to/essay_photo.jpg")
-        sys.exit(1)
-    main(sys.argv[1])
+    ap = argparse.ArgumentParser()
+    ap.add_argument("image", help="Path to the handwriting photo")
+    ap.add_argument("--rec-model-dir", default=None,
+                    help="Folder of a fine-tuned recognition model (omit for stock PP-OCRv4)")
+    args = ap.parse_args()
+    main(args.image, args.rec_model_dir)
