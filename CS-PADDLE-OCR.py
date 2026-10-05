@@ -37,6 +37,8 @@ import os
 import cv2
 from paddleocr import PaddleOCR
 
+from ocr_utils import filter_by_score, ordered_lines
+
 # Longest side to downscale to before running OCR. Smaller = faster, but
 # too small can hurt recognition of small/tight handwriting. 1800-2200
 # is a reasonable starting point for phone photos of notebook pages.
@@ -74,7 +76,7 @@ def downscale_if_needed(image_path, max_side=MAX_SIDE):
     return resized_path
 
 
-def main(image_path, rec_model_dir=None):
+def main(image_path, rec_model_dir=None, rec_thresh=0.0):
     debug_dir = os.path.join(os.path.dirname(os.path.abspath(image_path)), "debug_output")
     os.makedirs(debug_dir, exist_ok=True)
     base = os.path.join(debug_dir, os.path.splitext(os.path.basename(image_path))[0])
@@ -106,17 +108,16 @@ def main(image_path, rec_model_dir=None):
         if det_name:
             ocr_kwargs["text_detection_model_name"] = det_name
     else:
-        print("Using stock PP-OCRv4 recognition model.")
+        print("Using stock PaddleOCR recognition model (PP-OCRv6 medium).")
     ocr = PaddleOCR(**ocr_kwargs)
 
     print(f"Running OCR on {image_path}...")
     result = ocr.predict(image_path)
 
-    # PaddleOCR 3.x returns a list of result objects (one per image),
-    # each behaving like a dict with 'rec_texts' / 'rec_scores' keys.
+    # PaddleOCR 3.x returns a list of result objects (one per image).
+    # ordered_lines() regroups words into visual rows (fixes reading order).
     page = result[0] if result else {}
-    texts = page.get("rec_texts", []) if hasattr(page, "get") else page["rec_texts"]
-    scores = page.get("rec_scores", []) if hasattr(page, "get") else page["rec_scores"]
+    texts, scores = ordered_lines(filter_by_score(page, rec_thresh))
 
     print(f"\nDetected {len(texts)} line(s)/text region(s).\n")
 
@@ -135,6 +136,8 @@ if __name__ == "__main__":
     ap = argparse.ArgumentParser()
     ap.add_argument("image", help="Path to the handwriting photo")
     ap.add_argument("--rec-model-dir", default=None,
-                    help="Folder of a fine-tuned recognition model (omit for stock PP-OCRv4)")
+                    help="Folder of a fine-tuned recognition model (omit for the stock model)")
+    ap.add_argument("--rec-thresh", type=float, default=0.0,
+                    help="Drop recognized regions below this confidence (default 0 = keep all)")
     args = ap.parse_args()
-    main(args.image, args.rec_model_dir)
+    main(args.image, args.rec_model_dir, args.rec_thresh)

@@ -22,13 +22,17 @@ Setup:
 
 Usage:
     python evaluate_ocr.py eval_set/ --rec-model-dir ./iam_finetune_infer
-    python evaluate_ocr.py eval_set/                     # uses stock PP-OCRv4
+    python evaluate_ocr.py eval_set/                     # uses the stock models
     python evaluate_ocr.py eval_set/ --rec-model-dir ./iam_finetune_infer --compare-stock
 """
 
 import argparse
 import os
+import re
 import sys
+
+import cv2
+import numpy as np
 
 try:
     import jiwer
@@ -37,6 +41,9 @@ except ImportError:
     sys.exit(1)
 
 from paddleocr import PaddleOCR
+
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), ".."))
+from ocr_utils import filter_by_score, ordered_lines  # noqa: E402
 
 
 def stock_detector_name(lang="en"):
@@ -68,27 +75,50 @@ def load_eval_pairs(eval_dir):
     return pairs
 
 
-def run_ocr_on_image(ocr, image_path):
-    result = ocr.predict(image_path)
+DEFAULT_MAX_SIDE = 2000  # same default as CS-PADDLE-OCR.py
+
+
+def load_resized(image_path, max_side=DEFAULT_MAX_SIDE):
+    """Read an image and downscale so its longest side is <= max_side.
+    Mirrors CS-PADDLE-OCR.py so the eval measures the same pipeline you run."""
+    img = cv2.imdecode(np.fromfile(image_path, dtype=np.uint8), cv2.IMREAD_COLOR)
+    h, w = img.shape[:2]
+    longest = max(h, w)
+    if max_side and longest > max_side:
+        scale = max_side / longest
+        img = cv2.resize(img, (int(w * scale), int(h * scale)), interpolation=cv2.INTER_AREA)
+    return img
+
+
+def normalise(text):
+    """Lowercase and strip punctuation, to see how much error is only case/punctuation."""
+    return re.sub(r"[^\w\s]", "", text.lower())
+
+
+def run_ocr_on_image(ocr, image_path, max_side=DEFAULT_MAX_SIDE, rec_thresh=0.0):
+    result = ocr.predict(load_resized(image_path, max_side))
     page = result[0] if result else {}
-    texts = page.get("rec_texts", []) if hasattr(page, "get") else page["rec_texts"]
-    return "\n".join(texts)
+    lines, _ = ordered_lines(filter_by_score(page, rec_thresh))
+    return "\n".join(lines)
 
 
-def score(ocr, pairs, label):
+def score(ocr, pairs, label, max_side=DEFAULT_MAX_SIDE, rec_thresh=0.0):
     print(f"\n=== {label} ===")
     all_gt, all_pred = [], []
     for image_path, gt_text in pairs:
-        pred_text = run_ocr_on_image(ocr, image_path)
+        pred_text = run_ocr_on_image(ocr, image_path, max_side, rec_thresh)
         cer = jiwer.cer(gt_text, pred_text)
         wer = jiwer.wer(gt_text, pred_text)
+        cer_n = jiwer.cer(normalise(gt_text), normalise(pred_text))
         all_gt.append(gt_text)
         all_pred.append(pred_text)
-        print(f"{os.path.basename(image_path)}: CER={cer:.3f}  WER={wer:.3f}")
+        print(f"{os.path.basename(image_path)}: CER={cer:.3f}  WER={wer:.3f}  CER(no case/punct)={cer_n:.3f}")
 
     overall_cer = jiwer.cer(all_gt, all_pred)
     overall_wer = jiwer.wer(all_gt, all_pred)
+    overall_cer_n = jiwer.cer([normalise(t) for t in all_gt], [normalise(t) for t in all_pred])
     print(f"\n{label} OVERALL: CER={overall_cer:.3f}  WER={overall_wer:.3f}  "
+          f"CER(no case/punct)={overall_cer_n:.3f}  "
           f"(lower is better; 0 = perfect)")
     return overall_cer, overall_wer
 
@@ -97,9 +127,14 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("eval_dir", help="Folder of image + matching .txt ground-truth pairs")
     ap.add_argument("--rec-model-dir", default=None,
-                     help="Path to a fine-tuned recognition model (omit to use stock PP-OCRv4)")
+                     help="Path to a fine-tuned recognition model (omit to use the stock models)")
     ap.add_argument("--compare-stock", action="store_true",
-                     help="Also run stock PP-OCRv4 for a side-by-side comparison")
+                     help="Also run stock for a side-by-side comparison")
+    ap.add_argument("--max-side", type=int, default=DEFAULT_MAX_SIDE,
+                     help=f"Downscale images so the longest side is at most this many px "
+                          f"(default {DEFAULT_MAX_SIDE}, same as CS-PADDLE-OCR.py; 0 = no resize)")
+    ap.add_argument("--rec-thresh", type=float, default=0.0,
+                     help="Drop recognized regions below this confidence (default 0 = keep all)")
     args = ap.parse_args()
 
     pairs = load_eval_pairs(args.eval_dir)
@@ -125,12 +160,12 @@ def main():
         if det_name:
             ft_kwargs["text_detection_model_name"] = det_name
         ft_ocr = PaddleOCR(**ft_kwargs)
-        ft_cer, ft_wer = score(ft_ocr, pairs, "Fine-tuned model")
+        ft_cer, ft_wer = score(ft_ocr, pairs, "Fine-tuned model", args.max_side, args.rec_thresh)
 
     if args.compare_stock or not args.rec_model_dir:
-        print("Loading stock PP-OCRv4 model ...")
+        print("Loading stock PaddleOCR English models (PP-OCRv6 medium) ...")
         stock_ocr = PaddleOCR(**common_kwargs)
-        stock_cer, stock_wer = score(stock_ocr, pairs, "Stock PP-OCRv4")
+        stock_cer, stock_wer = score(stock_ocr, pairs, "Stock PP-OCRv6 medium", args.max_side, args.rec_thresh)
 
     if args.rec_model_dir and args.compare_stock:
         print("\n=== Comparison ===")
