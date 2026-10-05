@@ -37,7 +37,7 @@ import os
 import cv2
 from paddleocr import PaddleOCR
 
-from ocr_utils import filter_by_score, ordered_lines
+from ocr_utils import drop_edge_fragments, filter_by_score, ordered_lines
 
 # Longest side to downscale to before running OCR. Smaller = faster, but
 # too small can hurt recognition of small/tight handwriting. 1800-2200
@@ -76,7 +76,7 @@ def downscale_if_needed(image_path, max_side=MAX_SIDE):
     return resized_path
 
 
-def main(image_path, rec_model_dir=None, rec_thresh=0.0):
+def main(image_path, rec_model_dir=None, rec_thresh=0.0, edge_margin=0.0):
     debug_dir = os.path.join(os.path.dirname(os.path.abspath(image_path)), "debug_output")
     os.makedirs(debug_dir, exist_ok=True)
     base = os.path.join(debug_dir, os.path.splitext(os.path.basename(image_path))[0])
@@ -117,7 +117,9 @@ def main(image_path, rec_model_dir=None, rec_thresh=0.0):
     # PaddleOCR 3.x returns a list of result objects (one per image).
     # ordered_lines() regroups words into visual rows (fixes reading order).
     page = result[0] if result else {}
-    texts, scores = ordered_lines(filter_by_score(page, rec_thresh))
+    img_width = cv2.imread(image_path).shape[1]
+    page = drop_edge_fragments(filter_by_score(page, rec_thresh), img_width, edge_margin)
+    texts, scores = ordered_lines(page)
 
     print(f"\nDetected {len(texts)} line(s)/text region(s).\n")
 
@@ -139,5 +141,8 @@ if __name__ == "__main__":
                     help="Folder of a fine-tuned recognition model (omit for the stock model)")
     ap.add_argument("--rec-thresh", type=float, default=0.0,
                     help="Drop recognized regions below this confidence (default 0 = keep all)")
+    ap.add_argument("--edge-margin", type=float, default=0.0,
+                    help="Drop short (<=3 char) text within this fraction of the left/right "
+                         "image edge, e.g. 0.08 (default 0 = off)")
     args = ap.parse_args()
-    main(args.image, args.rec_model_dir, args.rec_thresh)
+    main(args.image, args.rec_model_dir, args.rec_thresh, args.edge_margin)

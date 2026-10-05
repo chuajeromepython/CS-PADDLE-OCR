@@ -90,3 +90,24 @@ def filter_by_score(page, thresh):
     if boxes is not None:
         out["rec_boxes"] = [boxes[i] for i in keep]
     return out
+
+def drop_edge_fragments(page, img_width, margin=0.08, max_chars=3):
+    """Drop short text (<= max_chars) whose box sits in the outer `margin` fraction
+    of the image on the left or right. Catches words cut off at the page edge, e.g.
+    the neighbouring page peeking in beside a notebook spread. margin <= 0 disables."""
+    if margin <= 0:
+        return page
+    getter = page.get if hasattr(page, "get") else (lambda k, d=None: page[k])
+    texts = list(getter("rec_texts", []))
+    scores = list(getter("rec_scores", []))
+    boxes = _boxes_from_page(page, len(texts)) if texts else None
+    if boxes is None:
+        return page
+    lo, hi = margin * img_width, (1 - margin) * img_width
+    keep = [i for i, t in enumerate(texts)
+            if not (len(t.strip()) <= max_chars and (boxes[i][0] >= hi or boxes[i][2] <= lo))]
+    return {
+        "rec_texts": [texts[i] for i in keep],
+        "rec_scores": [scores[i] for i in keep],
+        "rec_boxes": [boxes[i] for i in keep],
+    }

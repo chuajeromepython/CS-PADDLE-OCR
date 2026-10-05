@@ -17,8 +17,8 @@ Settings swept:
   max_side              downscale target for the longest image side
   text_det_unclip_ratio how much detected boxes are expanded
   text_det_box_thresh   minimum box score kept by the detector
-  rec_thresh            drop recognized regions below this confidence. This is
-                        applied AFTER OCR, so it adds no extra OCR time.
+  rec_thresh            drop recognized regions below this confidence (after OCR, free)
+  edge_margin           drop short text hugging the left/right image edge (after OCR, free)
 """
 
 import argparse
@@ -36,11 +36,12 @@ except ImportError:
 from paddleocr import PaddleOCR
 
 from evaluate_ocr import load_eval_pairs, load_resized, normalise  # noqa: F401
-from ocr_utils import filter_by_score, ordered_lines  # noqa: E402 (path set up by evaluate_ocr)
+from ocr_utils import drop_edge_fragments, filter_by_score, ordered_lines  # noqa: E402 (path set up by evaluate_ocr)
 
 
-def render(page, rec_thresh):
-    lines, _ = ordered_lines(filter_by_score(page, rec_thresh))
+def render(page, rec_thresh, edge_margin, img_width):
+    page = drop_edge_fragments(filter_by_score(page, rec_thresh), img_width, edge_margin)
+    lines, _ = ordered_lines(page)
     return "\n".join(lines)
 
 
@@ -69,6 +70,8 @@ def main():
     ap.add_argument("--box-thresh", type=float, nargs="+", default=[0.5, 0.6])
     ap.add_argument("--rec-thresh", type=float, nargs="+", default=[0.0],
                     help="Confidence cut-offs to try (applied after OCR, so they cost nothing)")
+    ap.add_argument("--edge-margin", type=float, nargs="+", default=[0.0],
+                    help="Edge-fragment filter widths to try, e.g. 0 0.08 (applied after OCR, free)")
     ap.add_argument("--textline-orientation", choices=["on", "off"], default="on",
                     help="Run the line-orientation classifier (default on, as in CS-PADDLE-OCR.py)")
     ap.add_argument("--out", default="sweep_results.csv")
@@ -91,8 +94,8 @@ def main():
         det_grid = [(s, 1.5, 0.6) for s in args.sizes]
     else:
         det_grid = list(itertools.product(args.sizes, args.unclip, args.box_thresh))
-    n_total = len(det_grid) * len(args.rec_thresh)
-    print(f"{len(det_grid)} OCR pass(es) x {len(args.rec_thresh)} confidence cut-off(s) = "
+    n_total = len(det_grid) * len(args.rec_thresh) * len(args.edge_margin)
+    print(f"{len(det_grid)} OCR pass(es) x {len(args.rec_thresh)} confidence cut-off(s) x {len(args.edge_margin)} edge margin(s) = "
           f"{n_total} configuration(s) (textline orientation {args.textline_orientation}). "
           f"Each OCR pass can take minutes on CPU.\n")
 
@@ -102,17 +105,19 @@ def main():
     for i, (size, unclip, box) in enumerate(det_grid, 1):
         pages, secs = run_detector_config(ocr, pairs, img_cache, size, unclip, box)
         print(f"[OCR pass {i}/{len(det_grid)}] side={size} unclip={unclip} box={box} ({secs:.0f}s)")
-        for rt in args.rec_thresh:
-            preds = [render(p, rt) for p in pages]
+        widths = [img_cache[(path, size)].shape[1] for path, _ in pairs]
+        for rt, em in itertools.product(args.rec_thresh, args.edge_margin):
+            preds = [render(p, rt, em, w) for p, w in zip(pages, widths)]
             row = {
                 "max_side": size, "unclip": unclip, "box_thresh": box, "rec_thresh": rt,
+                "edge_margin": em,
                 "cer": jiwer.cer(gts, preds),
                 "cer_nocase": jiwer.cer([normalise(t) for t in gts], [normalise(t) for t in preds]),
                 "wer": jiwer.wer(gts, preds),
             }
             rows.append(row)
-            print(f"    rec>={rt:<4}  CER={row['cer']:.3f}  CER(no case)={row['cer_nocase']:.3f}  "
-                  f"WER={row['wer']:.3f}")
+            print(f"    rec>={rt:<4} edge={em:<5} CER={row['cer']:.3f}  "
+                  f"CER(no case)={row['cer_nocase']:.3f}  WER={row['wer']:.3f}")
             if best is None or row["cer"] < best["cer"]:
                 best, best_preds = row, preds
 
@@ -120,7 +125,7 @@ def main():
     print("\n=== Top 5 (lower is better) ===")
     for r in rows[:5]:
         print(f"side={r['max_side']:<5} unclip={r['unclip']:<4} box={r['box_thresh']:<4} "
-              f"rec>={r['rec_thresh']:<4} CER={r['cer']:.3f}  "
+              f"rec>={r['rec_thresh']:<4} edge={r['edge_margin']:<5} CER={r['cer']:.3f}  "
               f"CER(no case)={r['cer_nocase']:.3f}  WER={r['wer']:.3f}")
 
     with open(args.out, "w", newline="", encoding="utf-8") as f:
@@ -130,7 +135,7 @@ def main():
     print(f"\nSaved all results to {args.out}")
 
     print(f"\n=== Best config: side={best['max_side']} unclip={best['unclip']} "
-          f"box={best['box_thresh']} rec>={best['rec_thresh']} -- per-image prediction vs ground truth ===")
+          f"box={best['box_thresh']} rec>={best['rec_thresh']} edge={best['edge_margin']} -- per-image prediction vs ground truth ===")
     for (path, gt), pred in zip(pairs, best_preds):
         print(f"\n--- {os.path.basename(path)}  (CER={jiwer.cer(gt, pred):.3f}) ---")
         print("GROUND TRUTH:\n" + gt)

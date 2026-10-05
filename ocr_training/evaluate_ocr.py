@@ -43,7 +43,7 @@ except ImportError:
 from paddleocr import PaddleOCR
 
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), ".."))
-from ocr_utils import filter_by_score, ordered_lines  # noqa: E402
+from ocr_utils import drop_edge_fragments, filter_by_score, ordered_lines  # noqa: E402
 
 
 def stock_detector_name(lang="en"):
@@ -95,18 +95,20 @@ def normalise(text):
     return re.sub(r"[^\w\s]", "", text.lower())
 
 
-def run_ocr_on_image(ocr, image_path, max_side=DEFAULT_MAX_SIDE, rec_thresh=0.0):
-    result = ocr.predict(load_resized(image_path, max_side))
+def run_ocr_on_image(ocr, image_path, max_side=DEFAULT_MAX_SIDE, rec_thresh=0.0, edge_margin=0.0):
+    img = load_resized(image_path, max_side)
+    result = ocr.predict(img)
     page = result[0] if result else {}
-    lines, _ = ordered_lines(filter_by_score(page, rec_thresh))
+    page = drop_edge_fragments(filter_by_score(page, rec_thresh), img.shape[1], edge_margin)
+    lines, _ = ordered_lines(page)
     return "\n".join(lines)
 
 
-def score(ocr, pairs, label, max_side=DEFAULT_MAX_SIDE, rec_thresh=0.0):
+def score(ocr, pairs, label, max_side=DEFAULT_MAX_SIDE, rec_thresh=0.0, edge_margin=0.0):
     print(f"\n=== {label} ===")
     all_gt, all_pred = [], []
     for image_path, gt_text in pairs:
-        pred_text = run_ocr_on_image(ocr, image_path, max_side, rec_thresh)
+        pred_text = run_ocr_on_image(ocr, image_path, max_side, rec_thresh, edge_margin)
         cer = jiwer.cer(gt_text, pred_text)
         wer = jiwer.wer(gt_text, pred_text)
         cer_n = jiwer.cer(normalise(gt_text), normalise(pred_text))
@@ -135,6 +137,9 @@ def main():
                           f"(default {DEFAULT_MAX_SIDE}, same as CS-PADDLE-OCR.py; 0 = no resize)")
     ap.add_argument("--rec-thresh", type=float, default=0.0,
                      help="Drop recognized regions below this confidence (default 0 = keep all)")
+    ap.add_argument("--edge-margin", type=float, default=0.0,
+                     help="Drop short (<=3 char) text within this fraction of the left/right "
+                          "image edge, e.g. 0.08 (default 0 = off)")
     args = ap.parse_args()
 
     pairs = load_eval_pairs(args.eval_dir)
@@ -160,12 +165,12 @@ def main():
         if det_name:
             ft_kwargs["text_detection_model_name"] = det_name
         ft_ocr = PaddleOCR(**ft_kwargs)
-        ft_cer, ft_wer = score(ft_ocr, pairs, "Fine-tuned model", args.max_side, args.rec_thresh)
+        ft_cer, ft_wer = score(ft_ocr, pairs, "Fine-tuned model", args.max_side, args.rec_thresh, args.edge_margin)
 
     if args.compare_stock or not args.rec_model_dir:
         print("Loading stock PaddleOCR English models (PP-OCRv6 medium) ...")
         stock_ocr = PaddleOCR(**common_kwargs)
-        stock_cer, stock_wer = score(stock_ocr, pairs, "Stock PP-OCRv6 medium", args.max_side, args.rec_thresh)
+        stock_cer, stock_wer = score(stock_ocr, pairs, "Stock PP-OCRv6 medium", args.max_side, args.rec_thresh, args.edge_margin)
 
     if args.rec_model_dir and args.compare_stock:
         print("\n=== Comparison ===")
