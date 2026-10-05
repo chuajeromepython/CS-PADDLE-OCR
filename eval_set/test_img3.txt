@@ -1,0 +1,9 @@
+DATE June 24, 2026
+I continued studying STARS's codebase, reading
+through documentations, developers' comments in the
+code, README file on the app's repository, and
+OpenCV. I also continued studying PHP and Laravel
+and how to use XAMPP properly until I reached a
+solid understanding of the basics and built a chat
+bot using GROQ API. I spent the day studying
+STARS codebase.
