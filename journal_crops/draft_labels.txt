@@ -1,0 +1,765 @@
+test_img1_r00_00.png	DATEJne 22,2016
+test_img1_r01_00.png	I arrived at the Manageiment Information sistins
+test_img1_r02_00.png	Office suilding. I was then recieved by Maiam steph
+test_img1_r03_00.png	who I had been updating about my ost application for
+test_img1_r04_00.png	the past two weeks. she introduced me to sir Derel
+test_img1_r05_00.png	and Sir Mer. Sir Her looked at my resome and asked
+test_img1_r06_00.png	questions about coding to which I answered frothfully based
+test_img1_r07_00.png	on my experience coding, Latir. Sir Derel introduced
+test_img1_r08_00.png	me to the Eufy Camera pipeline. We discusced how
+test_img1_r09_00.png	Tufy camera worked and a hypothetical solution to get
+test_img1_r10_00.png	it working according to the department's weeds. Lwas
+test_img1_r11_00.png	also introduced to PHp and Lainuel. After Incpecting
+test_img1_r12_00.png	the cameras installed outside the the module in which
+test_img1_r13_00.png	data got stored inside Ispint the day reading about
+test_img1_r14_00.png	Pufy Cameras and HP and Larauel in mg laptop.
+test_img10_r00_00.png	DATE Seplember ', hone
+test_img10_r01_00.png	aned al MisAoining the mornina
+test_img10_r02_00.png	my laptop and began dhedking the acouracy or the
+test_img10_r03_00.png	STARs manal. Ithen began colleting saeenshots
+test_img10_r04_00.png	for the manval to guide hadhers and ofher users
+test_img10_r05_00.png	how to boe the app. After collecting the screnshats
+test_img10_r06_00.png	I compiled them and inserted to the manual- wish
+test_img10_r07_00.png	annothfions, I placed Phim in sections that best
+test_img10_r08_00.png	reprisent them:
+test_img10_r09_00.png	By afternoon, I confinved working on the manval while
+test_img10_r10_00.png	at the same time checking the app's code for bugs
+test_img10_r11_00.png	and last minul changes and fixes-
+test_img11_r00_00.png	DATE Seplumber1, 26
+test_img11_r01_00.png	Iopined my liptop and chicked the apps gitbib
+test_img11_r02_00.png	repositoryrfatAudrisuistobeinworn
+test_img11_r03_00.png	ixed the backop sloping to ensue backup dat
+test_img11_r04_00.png	only contains data that a specific teacher created
+test_img11_r05_00.png	rnd do data firom other ustrs shold lbe in it.
+test_img11_r06_00.png	I also fixed some elemends in the us to udate
+test_img11_r07_00.png	Ore when ayres happen as well as some thinor UI
+test_img11_r08_00.png	dhampes and improrements. After this I shifhed my
+test_img11_r09_00.png	attution to the app's vier manual and updated
+test_img11_r10_00.png	it.
+test_img11_r11_00.png	In the aftirnoon I focosed on reuriting the malioxl
+test_img11_r12_00.png	n Reflect the curent starte of the app
+test_img12_r00_00.png	DATE Aujust 18, 2024
+test_img12_r01_00.png	I assistid Sir Martin in setting up the photo
+test_img12_r02_00.png	booth.I took pictues for mothers in the
+test_img12_r03_00.png	event as well as quide them where to look
+test_img12_r04_00.png	and how mang shots the session would take
+test_img12_r05_00.png	I also helped baring soane loggare inho the
+test_img12_r06_00.png	ofice and onece the event finisted, helped
+test_img12_r07_00.png	the ream pack up and leave
+test_img13_r00_00.png	DATE Agust 2l0,2026
+test_img13_r01_00.png	scaus identification easier.
+test_img13_r02_00.png	henIinduded syncedassessment/ausuerbaydat
+test_img13_r03_00.png	to the wackup. while taking sope into consideate
+test_img13_r04_00.png	the badeup swould anly restore datathe arent
+test_img13_r05_00.png	signed in user and shald not be able to be
+test_img13_r06_00.png	osed by other osers.
+test_img14_r00_00.png	DATE August 17, honG
+test_img14_r01_00.png	Iattrided the capitol's flag ceremony Affur that
+test_img14_r02_00.png	I gened my laptop and began working on the app.
+test_img14_r03_00.png	the first thing I did was make anchor dutechion
+test_img14_r04_00.png	mace consistint by remoing the single frame
+test_img14_r05_00.png	lode and making if so that all The 
+test_img14_r06_00.png	weds to do is Lock on indiviAval anchors,
+test_img14_r07_00.png	keep them locked until the others are also
+test_img14_r08_00.png	locked before the capture occurs.
+test_img15_r00_00.png	DATE Augost 1A, 2OLG
+test_img15_r01_00.png	opened stARs's website. I then opend Android
+test_img15_r02_00.png	shudio to begin working on calibrating 29H90
+test_img15_r03_00.png	and zptas. I first investigated the anomaly wter
+test_img15_r04_00.png	Zotowassoehowlessetive atdethhingno
+test_img15_r05_00.png	pencil marks compared to 2pH4o which does the
+test_img15_r06_00.png	well.
+test_img16_r00_00.png	DATE July 22, non6
+test_img16_r01_00.png	I pished thi changes made gester day to the
+test_img16_r02_00.png	app's github repostory for version control. Afty
+test_img16_r03_00.png	this, I mored on to replace emery native android
+test_img16_r04_00.png	dinton boxes in the app with a card to enhance
+test_img16_r05_00.png	the user experience. then I decided to tudy
+test_img16_r06_00.png	the anomaly to prepare for future prooting since
+test_img16_r07_00.png	enwuntering the problem would vesult in rigorous
+test_img16_r08_00.png	debogging and pu seardh. the tit aguostic mode
+test_img16_r09_00.png	wortid as intended. But real pirformance will be
+test_img16_r10_00.png	Hoted when we get a proper print of the sheets
+test_img16_r11_00.png	with Ar Deo markirs because right now we were
+test_img16_r12_00.png	only vsing a photo edifed version of it.
+test_img17_r00_00.png	DATE JUly 16, Lo26
+test_img17_r01_00.png	When I was tusting the app, I happen to nitice that ater
+test_img17_r02_00.png	I sync afer syncing moments ago, assessment data
+test_img17_r03_00.png	would disappear - The explanntion was that when
+test_img17_r04_00.png	the user syncs for the second time when dasses
+test_img17_r05_00.png	arnive the the app, the dafa resets back to the
+test_img17_r06_00.png	initial state, the state of fresh syuc. I atted a
+test_img17_r07_00.png	persistence algonthm to ensue the data is sand
+test_img17_r08_00.png	whin assessiments ae made from the app so
+test_img17_r09_00.png	regyncing wouldrit wipe them all out. Then Thad a
+test_img17_r10_00.png	tiscussion with sir trik about the databage
+test_img17_r11_00.png	filling up when the user syncs over and over again.
+test_img17_r12_00.png	then I implemented a fail safe mechanism to
+test_img17_r13_00.png	handle motiple answer entries so Hey dont break
+test_img17_r14_00.png	the system.
+test_img18_r00_00.png	DATE July 15, 2024
+test_img18_r01_00.png	The scanner for zpitceo had minor problems lika
+test_img18_r02_00.png	diffioulty duficting the anchors and the same
+test_img18_r03_00.png	arintation problems. Afhr addressing those and
+test_img18_r04_00.png	Axing them, I had a disoussion with sir Erik
+test_img18_r05_00.png	about a possible fiture featre, a studen-spefific
+test_img18_r06_00.png	profile within the app, which gake me a sence
+test_img18_r07_00.png	of atere the profuct might be headed, After
+test_img18_r08_00.png	the disoussion I con finved wrorking on the
+test_img18_r09_00.png	ZPHar format to improve if and mala it foobroof.
+test_img19_r00_00.png	DATE July 10, non6
+test_img19_r01_00.png	I usid caude to investigjat more robust ways
+test_img19_r02_00.png	to do soans I noticed, throughout the past days
+test_img19_r03_00.png	testing, rotation anomalies and andhar detection
+test_img19_r04_00.png	problems. I dealded to look into them in detail
+test_img19_r05_00.png	to fix the root cause of why the app coulduit
+test_img19_r06_00.png	scan with wnitten names on the sheet. Most of
+test_img19_r07_00.png	the day was spent trying to determime the
+test_img19_r08_00.png	carfe of the bug- while I had suppicions of the
+test_img19_r09_00.png	app not knowing how to accurately orient the image
+test_img19_r10_00.png	captured, I couldn't know for fure until my next duty.
+test_img2_r00_00.png	DATE Sepleimber 22. youce
+test_img2_r01_00.png	I arnived at Miso and sit up my laphop Sir
+test_img2_r02_00.png	Erik came to visit and we cliscussed in
+test_img2_r03_00.png	detail the implementation of EcpE tab
+test_img2_r04_00.png	in the app. We talked about how the
+test_img2_r05_00.png	app will communicath with the sys fem and
+test_img2_r06_00.png	what shape of the data it shoutd throw.
+test_img2_r07_00.png	we also tallad about the arrent state of
+test_img2_r08_00.png	the featue and I suggested we don't
+test_img2_r09_00.png	change anything in the fiumpleite and ut
+test_img2_r10_00.png	let the app send a fimestamp so the
+test_img2_r11_00.png	sustem can calculate He child's are using
+test_img2_r12_00.png	this Aatapoitht. Sir Erik showed me the
+test_img2_r13_00.png	inconniniences the teadhers have to go thirough
+test_img2_r14_00.png	manging paper works and the digifal appearance
+test_img2_r15_00.png	of thise files.
+test_img2_r16_00.png	I spent the afternoon reviewing the code
+test_img2_r17_00.png	responsible for eCD( functionality and
+test_img2_r18_00.png	assessed its arrent implementation.1
+test_img2_r19_00.png	atterted the. spintual meeting and. rehurned
+test_img2_r20_00.png	to the lab urgently after.
+test_img20_r00_00.png	DATE July a, non4
+test_img20_r01_00.png	Sir trik, Sir Rein, and I went to Santa Mania
+test_img20_r02_00.png	their loal machine- At the same time, I aversaw
+test_img20_r03_00.png	the sife I also implementedt on the spot an
+test_img20_r04_00.png	"upload assessment" fon ction ality to allow, thistime
+test_img20_r05_00.png	the app to send assessment data to the system
+test_img20_r06_00.png	in a one way fashion. But a bug emerged. the
+test_img20_r07_00.png	app would struggle to scaur steets with writings on it.
+test_img20_r08_00.png	I took the initiative to explain to one of the
+test_img20_r09_00.png	Kadhers how the app works and listened to a
+test_img20_r10_00.png	frature request from him.
+test_img20_r11_00.png	All three of us went home safe.
+test_img21_r00_00.png	DATE Jly 8, homy.
+test_img21_r01_00.png	Todaij's targit next was The studen'ts LRN
+test_img21_r02_00.png	(Learher Riferena Number). Sir Rein gave me the
+test_img21_r03_00.png	API call signitue and using the sare paltern did
+test_img21_r04_00.png	wth darsed, also successfly fitched data from
+test_img21_r05_00.png	the oustem and wrote it into student Lrn table in
+test_img21_r06_00.png	the app's Anta base. This data was essential in
+test_img21_r07_00.png	keeping record of students and answer validation.
+test_img21_r08_00.png	AHer seing LRN hata populate the gpp's studentibirn
+test_img21_r09_00.png	table, I decided to investigate the data table to
+test_img21_r10_00.png	see what it was made of.
+test_img22_r00_00.png	DATE Jly 7, hons
+test_img22_r01_00.png	A major featue implementation was on the way
+test_img22_r02_00.png	the iden was to make possible synchronization
+test_img22_r03_00.png	of dath with the system and the app when
+test_img22_r04_00.png	in sync, the app should get data from the
+test_img22_r05_00.png	sustem. My goal aras to oreate a button that
+test_img22_r06_00.png	will call an Api to the eysthum. The system anitl
+test_img22_r07_00.png	then tend tata through the api. and the app ail
+test_img22_r08_00.png	display them as Classes tata. I made the
+test_img22_r09_00.png	button and rucoelsfully synced Class data from
+test_img22_r10_00.png	the system. Now whatever cdass data exists in
+test_img22_r11_00.png	the sustem, the teachers can syhc with the systm
+test_img22_r12_00.png	get their own respective classes.
+test_img22_r13_00.png	I pushed th changes to the pp's repositony
+test_img22_r14_00.png	on Github to secaure the uplate.
+test_img23_r00_00.png	DATE Jly C6 hory
+test_img23_r01_00.png	I worked inth the Qr code scauner to fetoh usir
+test_img23_r02_00.png	data from the app's local database. fir kein encoded
+test_img23_r03_00.png	data into the QR code and my goal is to extract
+test_img23_r04_00.png	that data and turn it into dis playable in form ation
+test_img23_r05_00.png	in the app's vI. Athr this iI implerented a new
+test_img23_r06_00.png	scanning scheme to improve the app's scanning
+test_img23_r07_00.png	capability. And tisthd it with real omr stects.
+test_img23_r08_00.png	The day was spent kisting and trning the
+test_img23_r09_00.png	scanmer to mala sure the users would get more
+test_img23_r10_00.png	svoces fol scans us failed scans.
+test_img24_r00_00.png	DATE dly 3, nony
+test_img24_r01_00.png	is roponsible por throwing tata from the system
+test_img24_r01_01.png	to the app and vice versa, In order for my dork
+test_img24_r02_00.png	to be frit ful, I had to also study how this
+test_img24_r03_00.png	sustim works I was successful at fetching
+test_img24_r04_00.png	kata froum the sustem and even wroth if into
+test_img24_r05_00.png	th new table I made on dune le hone. I also
+test_img24_r06_00.png	wrok logs to check ping conrection, or connectivity
+test_img24_r07_00.png	with the system. though the success caume from many
+test_img24_r08_00.png	trial and crror tusts.
+test_img25_r00_00.png	DATE Jly , rone
+test_img25_r01_00.png	The presenfation of my prposals caime. I haid the
+test_img25_r02_00.png	chance to explain the chances I made to Sir tnk
+test_img25_r03_00.png	personally. Lexplained by demonstration why such
+test_img25_r04_00.png	changes woulbe beneficial to the app and its
+test_img25_r05_00.png	users. We agreed on a design. After it had
+test_img25_r06_00.png	been noted, we moved the disoussion to the app's
+test_img25_r07_00.png	Primany finction the OM Soraner. Before I toudhied
+test_img25_r08_00.png	th app's code base, the app's scauner displayed
+test_img25_r09_00.png	behanions that caunot be ignored such as inability
+test_img25_r10_00.png	to scan when the sheet was placed upside down.
+test_img25_r11_00.png	Sir Prik and I discussed how to improve the scaumer.
+test_img25_r12_00.png	Then I suggested putting, guide boaxes to help
+test_img25_r13_00.png	teadhers alingn the @rets printed anchors anth the
+test_img25_r14_00.png	green box. The suggestion acted as autches to
+test_img25_r15_00.png	dnturmim how the app will per forom naer such
+test_img25_r16_00.png	change.
+test_img26_r00_00.png	DATE July 1, 2on4
+test_img26_r01_00.png	Sir Derel told me to nake at Teast thre proposals
+test_img26_r02_00.png	so sir prik can choose. I spent th entirity of the
+test_img26_r03_00.png	day greating proposals in Figma, designing the
+test_img26_r04_00.png	app's I to cover the app's weak points and
+test_img26_r05_00.png	making wanigition easy to follow and track.
+test_img26_r06_00.png	Time to time I would also study the app's code
+test_img26_r07_00.png	base to hulp me kesign acaurat changes without
+test_img26_r08_00.png	Wuing the app's design intigrty.
+test_img27_r00_00.png	DATE Jine na, none
+test_img27_r01_00.png	Sir Frik and I discussed the crrent U /U1 disign of
+test_img27_r02_00.png	the app. pointing out the complexity of its ox and how
+test_img27_r03_00.png	less tech-savy teachers might get lost in theapp.
+test_img27_r04_00.png	We deaided to address this design flaw and commited
+test_img27_r05_00.png	to making the app iser frienildy, easy to use but
+test_img27_r06_00.png	anthout remoring the complex nature of the app, and
+test_img27_r07_00.png	improning the app's come vision to mike checking our
+test_img27_r08_00.png	stects easy without sactificing functionality.
+test_img27_r09_00.png	Related to this, Sir Derel and Sir Erik tasked me
+test_img27_r10_00.png	to make design proposals for the app. I chose to
+test_img27_r11_00.png	do the proposals in Figma. Sir Allen gavenume an
+test_img27_r12_00.png	indroduction in figma and made my first design
+test_img27_r13_00.png	proposal.
+test_img28_r00_00.png	DATE Jdne 24 non4
+test_img28_r01_00.png	Eenthough I successfully implementid theQcinner
+test_img28_r02_00.png	featire assigned to me by Sir Rol I took the initiatior
+test_img28_r03_00.png	to study the app's codebase at a dreper terel cncavering
+test_img28_r04_00.png	how the methods are used in the app, the first
+test_img28_r05_00.png	somen that the users sce upon opening, how the
+test_img28_r06_00.png	ML fles are built and wired to built the UI and how
+test_img28_r07_00.png	data flows throughout the app. I aslo added a soft
+test_img28_r08_00.png	gate or disclaimer to warn the users when adting
+test_img28_r09_00.png	new dasses and answer keys as attition of said
+test_img28_r10_00.png	evements should be goven by the sustem and not the
+test_img28_r11_00.png	veers. As pur sir Roi's Mobilt App Connect Moduk.
+test_img29_r00_00.png	DATE Jine 25, 2024
+test_img29_r01_00.png	I was llowed to Join the bon'efing for StARs new
+test_img29_r01_01.png	featores implementation the briesing was led by
+test_img29_r02_00.png	Sir Roi. I was assighed to implement a QR code
+test_img29_r03_00.png	fystem and save it in the app's intirnal database.
+test_img29_r04_00.png	Sir Rein also a ssigned me to creatt a new toble
+test_img29_r05_00.png	in the app's database ecosytom to store said
+test_img29_r06_00.png	data obfaived from the QR seam.
+test_img3_r00_00.png	DATE Sephmber 18, 2o26
+test_img3_r01_00.png	Upon arnining at mist, I gpened my laptop to
+test_img3_r02_00.png	lend the sta proe in sode, uhile loading
+test_img3_r02_01.png	rericand my plan to imple went EcDC. then the
+test_img3_r03_00.png	proguct loaded, I began to code the featuce. 1
+test_img3_r04_00.png	started by sync the app with the sys tum and
+test_img3_r05_00.png	recieved by the app. I then exeated two more
+test_img3_r06_00.png	fables to the app's local datalease to store
+test_img3_r07_00.png	the data coming from the system. Once that
+test_img3_r08_00.png	was gone, I added an emply uptoad bulton
+test_img3_r09_00.png	to jutge what the besign woula look like the
+test_img3_r10_00.png	I added sulectors for the tirms but made them
+test_img3_r11_00.png	placeholders cntil the sys tim dhanges a few
+test_img3_r12_00.png	wtails I activated the search to search for
+test_img3_r13_00.png	Students and svecesully rendired them on
+test_img3_r14_00.png	the screen.
+test_img30_r00_00.png	ind
+test_img30_r00_01.png	DATE JUne 24, 2o26
+test_img30_r01_00.png	I continvid sudying stARs's code base, mading
+test_img30_r02_00.png	through docuwentations, developers comments in the
+test_img30_r03_00.png	code. READHE file on the app's uposifory, and
+test_img30_r04_00.png	OpenCU. I also contineed studying PHP and Laravel
+test_img30_r05_00.png	and how to use Xampp properly until I madhed a
+test_img30_r06_00.png	solid mder standing of the basics and builf a chat
+test_img30_r07_00.png	bot using GROQ API. I spent the day studying
+test_img30_r08_00.png	StARS codebase
+test_img31_r00_00.png	DATE June 23, non4
+test_img31_r01_00.png	I set up my laptap to ron pHp and Laravel apps.
+test_img31_r02_00.png	This indted daumloading relerant cottware such as xtMpp
+test_img31_r03_00.png	and doing systim modifications for Laravel. After
+test_img31_r03_01.png	that, I cdoned the StARs repository from Github
+test_img31_r04_00.png	StARs is an android application for Scanning Optical
+test_img31_r05_00.png	Mark Reaannition couR) sheets using a phone's
+test_img31_r06_00.png	camera.I ran the aode base and saw for the first
+test_img31_r07_00.png	time the app's Graphical User luterface (GUI) Tthe
+test_img31_r08_00.png	codebase was buge. Together it consists of 1. giga
+test_img31_r09_00.png	byths of storage At that point I began studying
+test_img31_r10_00.png	the codebase to understand kwhat the app Abes.
+test_img31_r11_00.png	loslloton.
+test_img31_r12_00.png	Asn side avest, built a simple forum with PHP
+test_img31_r13_00.png	and Laravel as per Sir Dercl's request-
+test_img32_r00_00.png	DATE Jly 24 Lony
+test_img32_r01_00.png	I added n Bisic Camera Mode solely for
+test_img32_r02_00.png	I successfully cmulated the bug and got a foll
+test_img32_r03_00.png	inderotanding of if. I decided to leave this
+test_img32_r04_00.png	mode in He app for toture possible ose caselia
+test_img32_r05_00.png	a mew camera mode or a blank G atl for a
+test_img32_r06_00.png	belter ArVeo implementation.
+test_img32_r07_00.png	I also replaced eery multi-shaded bubblis anth
+test_img32_r08_00.png	yellow for belter readability so the thadhers wald
+test_img32_r09_00.png	knaw right away tihat appears in their seans.
+test_img32_r10_00.png	To finosh off the week, I athunded Doc avi's
+test_img32_r11_00.png	dass and had my axekly report crecked by ber.
+test_img33_r00_00.png	DATE July 27, none
+test_img33_r01_00.png	Irenisited by Ul proposals and decaided it was timi
+test_img33_r02_00.png	to build the app one ui element atter another I began
+test_img33_r03_00.png	to implement a bottom navigtion lbar (vau bar) and
+test_img33_r04_00.png	mate the first item "user" along with home Uscros
+test_img33_r05_00.png	would aontain basic informa tion about the teacher and
+test_img33_r06_00.png	maved the QR Scan button there. I also added
+test_img33_r07_00.png	Asressments and Answer Keys into the nav bar and
+test_img33_r08_00.png	successauly rendeed them. To filter assess ments and
+test_img33_r09_00.png	answer kays I added a bulton that will group them
+test_img33_r10_00.png	by their classes of stet type. I spent the day
+test_img33_r11_00.png	polithing the Ul to match the app's inherent aethe
+test_img34_r00_00.png	DATEDLy 28, 2024
+test_img34_r01_00.png	improred thi xidting Asrsment filtr by adding
+test_img34_r02_00.png	as Assessment type I also fixed the sret tupe
+test_img34_r02_01.png	Alter by remaning exeess fout from the cards conus.
+test_img34_r03_00.png	Revisiting the proposal I made with figma, I reviewed
+test_img34_r04_00.png	which Ul ctement I should add to tre app. It was also
+test_img34_r05_00.png	time to reftect what the app has gome thirough
+test_img34_r06_00.png	camparedtothe day I first made a change band
+test_img34_r07_00.png	toodua its data base.
+test_img34_r08_00.png	I also adted Legends in the Detkcfion Results Sacten
+test_img34_r09_00.png	to quide the users to what color dots represents the leagerd
+test_img34_r10_00.png	sured nopurpsebutaisrally inform theusers of ahat
+test_img34_r11_00.png	each colored dot weans
+test_img35_r00_00.png	DATEdly 27, nore
+test_img35_r01_00.png	It was a raing day at thi Provincial Crpitol of
+test_img35_r02_00.png	Laguna. Upon arrinn, I opened my laptop and began
+test_img35_r03_00.png	work First,I implemented an experimental camerachode
+test_img35_r04_00.png	PlatSoan Mode" the purpose of this mode is to simply
+test_img35_r05_00.png	capture the sheet image in portrait mode while
+test_img35_r06_00.png	the sheet was captured in landsca pe mode. Holding
+test_img35_r07_00.png	the phome opright, the shat should appear ao degres
+test_img35_r08_00.png	Cwor cww rotated- It was an expernmental fenature
+test_img35_r09_00.png	and hot much of ose since the aruco scanners are
+test_img35_r10_00.png	adrady doing the dob night. I kept the mode in
+test_img35_r11_00.png	the app to be recycled.
+test_img35_r12_00.png	After that, I adked Ansmer lays to the nav bar
+test_img35_r13_00.png	to the vers can easily access and edit them
+test_img35_r14_00.png	without doing it from selecting the clarses dirst.
+test_img35_r15_00.png	I also did more UI and Ux changes and pushed
+test_img35_r16_00.png	the aurrent version of the code to Gthub.
+test_img36_r00_00.png	DATE Jly 30, 202,
+test_img36_r01_00.png	found were aove read only, meaning teachers cannot
+test_img36_r02_00.png	exit scar results froum hire fo avoid cnfair cdits
+test_img36_r03_00.png	or the seans being editid by acaident.
+test_img36_r04_00.png	I also fixed the tiltration systum and graping by
+test_img36_r05_00.png	to cover ebery catigory an etement can be graped
+test_img36_r06_00.png	by.
+test_img36_r07_00.png	By afturnoon, I attunded two subgecds af school.
+test_img37_r00_00.png	DATE Joly 31, hon6
+test_img37_r01_00.png	Ibegan the day with an idea, Since the system
+test_img37_r02_00.png	would change iP address from time to time, what
+test_img37_r03_00.png	if mate the app handle that as well? I implemented
+test_img37_r04_00.png	a ping check that would run upon opening He app.
+test_img37_r05_00.png	A dialog ection would then appear to tell the oser
+test_img37_r06_00.png	to uscan their QR code to updafe and replace
+test_img37_r07_00.png	he last bnaen Ip address with a new ore encoded
+test_img37_r08_00.png	in the app's back end. This is do ensure the user
+test_img37_r09_00.png	is informed of an grror and provide them with a
+test_img37_r10_00.png	way to tix it
+test_img37_r11_00.png	Then I added an (FAQ A EQA) FAQ sechtion
+test_img37_r12_00.png	in the app's header to pronide the first him users
+test_img37_r13_00.png	vital information abat He app what it dors and
+test_img37_r14_00.png	basic trable shooting tricks.
+test_img37_r15_00.png	I also chidked the app's backend for bugs and
+test_img37_r15_01.png	Unintknhed behaviors and spoke with Sir Rein about
+test_img37_r16_00.png	backing up assessment, sean, and ansy answer lag
+test_img37_r17_00.png	.dats...
+test_img38_r00_00.png	DATE AuguSt 3, ro44
+test_img38_r01_00.png	(Sir 2a) Sir trik uisikd Mist todag Trepoited to
+test_img38_r01_01.png	him on the development status of the app showed
+test_img38_r02_00.png	now look of the app He and I discossed abut a
+test_img38_r02_01.png	him the Ul chainges made to the app and the
+test_img38_r03_00.png	deticated shudent profile in the app as well as
+test_img38_r04_00.png	the three camera modes iI implemunted- Afer this
+test_img38_r05_00.png	want to Sir Rain to plan for the next dop
+test_img38_r06_00.png	In th affermeon, I implemented the Baekup susen
+test_img38_r07_00.png	feature to ensure user data gets retrieived whin the
+test_img38_r08_00.png	on has ben unintalled.
+test_img38_r09_00.png	S Sir Rein after A updated lim with the app's
+test_img38_r10_00.png	backend, taskid me to areail a user manvel for
+test_img38_r11_00.png	uh ape. I then began creating the first dratt
+test_img38_r12_00.png	for the user manual
+test_img39_r00_00.png	DATE August 4, 2026
+test_img39_r01_00.png	Afer aming at my spot Limediately opined my lap
+test_img39_r02_00.png	to stard working on the app's user manual as per
+test_img39_r03_00.png	Sir Rein's instretion. the usir manual will detail the
+test_img39_r04_00.png	app's activities and operations so tachers or other
+test_img39_r05_00.png	osirs can ose the app with ease,
+test_img39_r06_00.png	In the afteinoon , I continved crenting the user manod
+test_img39_r07_00.png	dor the app. I also fixed an edit button appeaning
+test_img39_r08_00.png	in the scans since it's breaking the no edit
+test_img39_r09_00.png	role of the scans tab. Also fixed the sating scheme
+test_img39_r10_00.png	bot inforning the upers if the save was & succers
+test_img39_r11_00.png	of not.
+test_img39_r12_00.png	fashight of the app offby default asp Sir
+test_img39_r12_01.png	toendtheday, one gicadjusomentmadethe
+test_img39_r13_00.png	Enik's instructions
+test_img4_r00_00.png	DATE September 17, 2o24
+test_img4_r01_00.png	Sir trik and I had a meeting wter, we discussed
+test_img4_r02_00.png	abot diffurent aspects of the app,especially Hhe
+test_img4_r03_00.png	implementation of the EcDe synic we also discussed
+test_img4_r04_00.png	abaut adding revelant logos and sead to the app
+test_img4_r05_00.png	for identity purposes. I suggested adding more
+test_img4_r06_00.png	Logos along side the StARs toge in the splash saken.
+test_img4_r07_00.png	we abo disoussed abot user accoant secunty and
+test_img4_r08_00.png	ger hierarchy. we briefly taked about SF-1
+test_img4_r09_00.png	file uploader for uploading Shdents and changing
+test_img4_r10_00.png	Answer key border color. We then agreed to not
+test_img4_r11_00.png	allow the users to attach a quiz" kay to an
+test_img4_r12_00.png	assessment and  assesswent bay to a quz.
+test_img4_r13_00.png	Some time during the mieting, sir Rein gave os
+test_img4_r14_00.png	the ApI  for symching EcDe data wtem
+test_img4_r15_00.png	ky told sir Enik how it will be used to link up
+test_img4_r16_00.png	the app and the cystem- then I planmed the
+test_img4_r17_00.png	yuc and its implemustation.
+test_img40_r00_00.png	DATE August 5, no24
+test_img40_r01_00.png	gill and indicate
+test_img40_r02_00.png	In the apturoon I continoved anttating the sateenchts
+test_img40_r03_00.png	as well as find fypos and errors in the manual. Lended
+test_img40_r04_00.png	the day with making sul the inanval would cover
+test_img40_r05_00.png	Phe app's core functionalities.
+test_img41_r00_00.png	DATE Angust II, hon6
+test_img41_r01_00.png	aioedatMisOAr greingMamDanding
+test_img41_r02_00.png	I et yp my laptop and began planning to implement
+test_img41_r03_00.png	a pro-mode among the selectable camera modes ia
+test_img41_r04_00.png	Hhe choose camera dialog. this mode will allow user
+test_img41_r05_00.png	scanning hard to fail. I moved the fatuo to the
+test_img41_r06_00.png	Usurs tab for ease of access, vumoving it from
+test_img41_r07_00.png	the camere mode options. Then I focused on
+test_img41_r08_00.png	polishing its bl/Ux, I also polished Ul in some
+test_img41_r09_00.png	parts of the app to make the feel unified undcer
+test_img41_r10_00.png	one theme.oaintoo
+test_img41_r11_00.png	Intheafturoon revisitedtheapp's manual and
+test_img41_r12_00.png	plated it since new feahres and dhanges wele
+test_img41_r13_00.png	Introduced.
+test_img42_r00_00.png	MS word to continve making stARs'; user manual. Iwarad
+test_img42_r01_00.png	on the Uar fab section of the app. Sir Erik Zaide
+test_img42_r02_00.png	wisited us I wes brought to the del room to obsorve sir
+test_img42_r03_00.png	Rein debug the system whrile doing so, I introdued
+test_img42_r04_00.png	Sir Prik to the new Calibrate fature Limplemented
+test_img42_r05_00.png	yeourday and explain to him to it was osed and
+test_img42_r06_00.png	how if would bene tit the Hacers. I also pointed out
+test_img42_r07_00.png	the diffurnce of any other sheets to the masko
+test_img42_r08_00.png	Duet and suggested the master sheet be veadt globally
+test_img42_r09_00.png	to prevent the app prom looking at difflrent set
+test_img42_r10_00.png	Umplates and risk being wrong, when I lift the
+test_img42_r11_00.png	room I continved to code some improvements to
+test_img42_r12_00.png	the app and Phen pusted it to githob.
+test_img42_r13_00.png	in the affirnoon, I focused on reviening and anting
+test_img42_r14_00.png	the user manual.
+test_img43_r00_00.png	DATE August 13, h026
+test_img43_r01_00.png	Upai arming. Iet up my laptop and opened
+test_img43_r02_00.png	Android ShudioIlookedutheGackyand
+test_img43_r03_00.png	feahre of the app again as well as fusted some
+test_img43_r04_00.png	steets do deferinive possibde fixes or improvements.
+test_img43_r05_00.png	I degided to add another lager to the badkop ard
+test_img43_r06_00.png	restore atre to allaw mormal operatiosof theap
+test_img43_r07_00.png	ising backop data.
+test_img43_r08_00.png	1 then fixed the backup and restore feature
+test_img43_r09_00.png	and puthed to gitlowb the changes.
+test_img44_r00_00.png	DATE August 2a, zoub
+test_img44_r01_00.png	I attended the capitol's weekly flag caremong.
+test_img44_r02_00.png	Opon arning back at my station, I dhecked
+test_img44_r03_00.png	the app's athub repository for checking version
+test_img44_r04_00.png	control sir Enik wisited us. We discosed abat the
+test_img44_r05_00.png	sZE anning-I show how toSC 2PH
+test_img44_r06_00.png	Aso, we discossed with sir Rein about lankansur
+test_img44_r07_00.png	and amived at the condo sion that we should leare
+test_img44_r08_00.png	as is. I fixed a problem where if two teachets
+test_img44_r09_00.png	where to ose the same phone, the local database
+test_img44_r10_00.png	was not scoped per seacher. Mow data is saoped
+test_img44_r11_00.png	o thachers.
+test_img44_r12_00.png	in the afurnoon, I checked the sustem and created
+test_img44_r13_00.png	accants to fest for multiple users, Iwas then
+test_img44_r14_00.png	givenbySirReintheapi for anchingAsemens
+test_img44_r15_00.png	and Answer bays at the same time. I then began
+test_img44_r16_00.png	to planthe next sheps for implementing thesyne
+test_img45_r00_00.png	DATE AqUSt 2s, 106
+test_img45_r01_00.png	WhenLarnivedimmediatly openedmyand
+test_img45_r02_00.png	bean working on theap First deanddaase
+test_img45_r02_01.png	Operations befor looting at ways to implement
+test_img45_r03_00.png	sych assessments and ansuer lays. I successfly
+test_img45_r04_00.png	Synoid both and began polishing Hhe featue and
+test_img45_r05_00.png	frilue proofing it.
+test_img46_r00_00.png	DATE Agust 2lo,2o2b
+test_img46_r01_00.png	Iwent to mist in the afteruoon After seting up my
+test_img46_r02_00.png	aiedialy woreonntegraithedents
+test_img46_r03_00.png	name into the scans card. thisto make cudent
+test_img46_r04_00.png	scaus identification easier.
+test_img46_r05_00.png	Then I induded suuced assessment/ausuer lay dato
+test_img46_r06_00.png	to the wackup. while taking soope into consideratio
+test_img46_r07_00.png	the badeap swould enly restore data the aurrent
+test_img46_r08_00.png	signed in user and shold not be able to be
+test_img46_r09_00.png	osed by otter osers.
+test_img47_r00_00.png	DATE Seplember 3, cono
+test_img47_r01_00.png	 alemy laptop toinork
+test_img47_r01_01.png	I gaterd the last remaining screen shots for the
+test_img47_r02_00.png	them, Ireviemed the first haf of the manual
+test_img47_r03_00.png	cometing some sechions and making soure they
+test_img47_r04_00.png	oe accurate and troe. I then opinied the app's
+test_img47_r05_00.png	code and fixed cluplication of scaus ahen the
+test_img47_r06_00.png	oser edits them to have the same LRN Now, the
+test_img47_r07_00.png	np notifies the osers when the edit iways the
+test_img47_r08_00.png	Sane as existing scan. I also did small
+test_img47_r09_00.png	Ul changes lika remaing ixiss fixt undar the
+test_img47_r10_00.png	Start Scanning"Card
+test_img48_r00_00.png	DATE September 4 rocce
+test_img48_r01_00.png	Upon aming at my tation, Iimmediately worked
+test_img48_r02_00.png	on the app to replace the lalel of one of the
+test_img48_r03_00.png	assessment type (ECD) to terim as per Sir trik's
+test_img48_r04_00.png	request Sir trik wisited Miso and we discussed about
+test_img48_r05_00.png	the implementation of a new tab called "Quiess!
+test_img48_r06_00.png	After asking some auustions about the geature, wl
+test_img48_r07_00.png	decided to unte the feature into a seporate branch
+test_img48_r08_00.png	5D a fall back wersion would shill be present.
+test_img48_r09_00.png	Sir Rein told me to ufe another brauch for version
+test_img48_r10_00.png	control. Later. I began work on the Quizess feantu
+test_img48_r11_00.png	by first making Kar nangation bar schollable
+test_img48_r12_00.png	honizontally to make room for the new Quizzer
+test_img48_r13_00.png	icon.
+test_img49_r00_00.png	DATE Sephember 23, hong
+test_img49_r01_00.png	Ahr arining at Miso, Imaded to the compule
+test_img49_r02_00.png	training lab to set up Ididnit bring my laptop
+test_img49_r03_00.png	the apps outrent State. while working on the
+test_img49_r04_00.png	manval, I was also checking the app's code on
+test_img49_r05_00.png	Github since the pos in the laboratory diduit
+test_img49_r06_00.png	have Android sudit to non the app wlth.
+test_img49_r07_00.png	By afurnoon. I helped Sir. Randy set yp the iV
+test_img49_r08_00.png	monitor and Sbeakar. thun I became an observer to
+test_img49_r09_00.png	Sir. Randy's Laguna pWD Incdosile Development
+test_img49_r10_00.png	Plan"presantation.
+test_img5_r00_00.png	DATE September l6e, houb
+test_img5_r01_00.png	when Larmied at the station I iminediately worled
+test_img5_r02_00.png	on fixing 9 bug sir trik reporhed gestirday the
+test_img5_r03_00.png	bug was a bread cromb label that was wrong for the
+test_img5_r04_00.png	caument vrer location ithe assessimonts tab. Affer
+test_img5_r05_00.png	Inspeching the code Iars alde to fix the yug
+test_img5_r06_00.png	without re-introduaing wore bugs. Afer this, Imold
+test_img5_r07_00.png	on to moning the kid friendy stickers from
+test_img5_r08_00.png	ECDC to the main soreen that rechually has ECoC
+test_img5_r09_00.png	data and Ul.
+test_img50_r00_00.png	DATE September 24, ronb
+test_img50_r01_00.png	At Mist, Sir. Prik visited We discossed and redewed
+test_img50_r02_00.png	the ECDC fentuu. We asled Sir. Randy if he could
+test_img50_r03_00.png	mak os d spksh sateen disign and after be
+test_img50_r04_00.png	agred, I set up my laphop in the laborajoy
+test_img50_r05_00.png	and began coding. 1 first moved the bitton
+test_img50_r06_00.png	from the ecde card to the students card
+test_img50_r07_00.png	for indinidual uploading of ECDC data
+test_img50_r08_00.png	to the suystem. Then L added a guard rail
+test_img50_r09_00.png	to prevent oseirs from yploading without filling
+test_img50_r10_00.png	all domains at onece. then I fixed the labeling
+test_img50_r11_00.png	isgue in the computency cards wher the labe
+test_img50_r12_00.png	"Not Present" was dlipping at of fhe card.
+test_img50_r13_00.png	In the aftrnoon, Ireviewed the stars Manual
+test_img50_r14_00.png	to look for incon sis fircies and rom
+test_img50_r15_00.png	for improvements.
+test_img51_r00_00.png	DATE Septumber 2s, 2o26
+test_img51_r01_00.png	Sir Enik and I discussed about replacing the
+test_img51_r02_00.png	gpp's splesh saen's logo aith a custom one
+test_img51_r03_00.png	th the seds of lagung and Miso. we asks
+test_img51_r04_00.png	sir. Randy to draft te disign of the
+test_img51_r05_00.png	logo. After that we went to sir Rein.
+test_img51_r06_00.png	I shoved sir. Rein how the app formats ELD
+test_img51_r07_00.png	data as tson and how the system wold
+test_img51_r08_00.png	recieve the data.
+test_img51_r09_00.png	In the app, I placed the help betton in
+test_img51_r10_00.png	the Osar fab and replaced with a button
+test_img51_r11_00.png	that will route the userfothe User tab immideatl
+test_img51_r12_00.png	for ver experience.
+test_img52_r00_00.png	DATE July 21, hony
+test_img52_r01_00.png	I implemented the "tist Agnosfic Mode" to fix the
+test_img52_r02_00.png	Jumplate mismatch and to stop the app from quessim
+test_img52_r03_00.png	which way to orient the app. Hong with the
+test_img52_r04_00.png	implumentation I suggested sir Dein to replace the
+test_img52_r05_00.png	shiet's physical appearance- that we should replace
+test_img52_r06_00.png	the black anchor guam martars wth Arluco
+test_img52_r07_00.png	Markurs- ArUco martars CAugmented Reality Unicersit
+test_img52_r08_00.png	of Cordoba) marbers one like ar cokes lat we embed
+test_img52_r09_00.png	n valve in it for the sheets the four anchors
+test_img52_r10_00.png	will be encourd with the walves O for (TL), I for
+test_img52_r11_00.png	(TR), 2 for (BL) ,and 3 for (BR). With these,
+test_img52_r12_00.png	Macting them will till the npp expliaitithy where
+test_img52_r13_00.png	to orient regardless of its placearent on the
+test_img52_r14_00.png	surpace or whither the phone was ontented
+test_img52_r15_00.png	a artain way- Hence Inamed the mode titf
+test_img52_r16_00.png	agnosic.
+test_img53_r00_00.png	DATEJLY no, no26
+test_img53_r01_00.png	H came to my mind why the persistint rotation
+test_img53_r02_00.png	anomaly was still pre sent in the wurent build. Lused
+test_img53_r03_00.png	logs to surgically investigatid every detail of how
+test_img53_r04_00.png	the app actually processes the ionage afty bing
+test_img53_r05_00.png	captured. and I confirmed it tentatively it was
+test_img53_r06_00.png	template hijacking. The app would sclect the
+test_img53_r07_00.png	wrong template causing the disorientation and
+test_img53_r08_00.png	therefore bad scans. Most of the day was
+test_img53_r09_00.png	Spent bravingtorming itias on how to addres
+test_img53_r10_00.png	and fix the anomaly. While keping the logs
+test_img53_r11_00.png	descriptive to help me identify a solu ftion to
+test_img53_r12_00.png	tinally fix the orientation mismatch and paint
+test_img53_r13_00.png	The app to the night diriction.
+test_img54_r00_00.png	DATE July 17, ron6
+test_img54_r01_00.png	I Inistalled uscode in sir trnik's laptop s6 that
+test_img54_r02_00.png	he himself gould test the app af the production
+test_img54_r03_00.png	or demeloper tevel. We doned the apps astin
+test_img54_r04_00.png	from github and made it nrning on his
+test_img54_r05_00.png	machim- It was anthout hiceups. we encontured
+test_img54_r06_00.png	aepenainay problems, slow interret, and slew
+test_img54_r07_00.png	github dones. But we were abl to get the system
+test_img54_r08_00.png	unning locally  After that, I turred my ateution
+test_img54_r09_00.png	to the fil saft mechanism I im plewented
+test_img54_r10_00.png	westurtay to polish if and make if lisually
+test_img54_r11_00.png	cwherent.
+test_img55_r00_00.png	DATE JUly 14, Lon4
+test_img55_r01_00.png	The planned zpH format to dynamically be seleted
+test_img55_r02_00.png	aas implemented the idea was simple, tell bubble
+test_img55_r03_00.png	scanner to only map against a template up to
+test_img55_r04_00.png	n number of items. that is we deaided to only
+test_img55_r05_00.png	use 2PH40 and ZPHCO formats to accant for
+test_img55_r06_00.png	items in ingrements of s If a oser sclects
+test_img55_r07_00.png	the 2ot40 but the test is only is items long, we
+test_img55_r08_00.png	deaided to tell the up to ouly use o as itemns
+test_img55_r09_00.png	of the said template format by caldl ating the
+test_img55_r10_00.png	+ and a coordinate of the fempl ates ison
+test_img55_r11_00.png	file- The we discussed aith sir Erik about this
+test_img55_r12_00.png	implementation.
+test_img55_r13_00.png	Relative to this, I fixed the camera layout for
+test_img55_r14_00.png	2PGO as the Sheet was physically bigger that
+test_img55_r15_00.png	2PH<10. I had to adjost the guide anchor
+test_img55_r16_00.png	defectors to match the geometry of 2PH40.
+test_img55_r17_00.png	Then I pushed to github the changes.
+test_img56_r00_00.png	DATE July B, O4
+test_img56_r01_00.png	After searching the orientation anomrly,  deaided
+test_img56_r02_00.png	to lock the captred image orientation to landscape
+test_img56_r03_00.png	This way I wold have onedefinitre orientation to look
+test_img56_r04_00.png	at and one way to instrwet the app to ratate.I
+test_img56_r05_00.png	made anchor labels to help the app further and
+test_img56_r06_00.png	to rotate accordingly. This is made possible by
+test_img56_r07_00.png	rading the phone's accelerometer to deteat the
+test_img56_r08_00.png	canonical orientation. And it worked. the app
+test_img56_r09_00.png	sow consistent scan sesults this way with en-
+test_img56_r10_00.png	foreed rotation and enforecd way to scan.
+test_img56_r11_00.png	I procceded to report it to Sir Rein and we
+test_img56_r12_00.png	discussed ways to impleument dynamic 2PH formnat
+test_img56_r13_00.png	Selection to cover  tests that are intervals
+test_img56_r14_00.png	wnth the app's known wrent templates: 2pH30, 2PH40
+test_img56_r15_00.png	ZPHSO, and ZPH4O.
+test_img57_r00_00.png	DATE Seplember La, zoad
+test_img57_r01_00.png	Sir. Enk visited Miso. I chowed him a draft
+test_img57_r02_00.png	for the logo I made and he wanted it to be
+test_img57_r03_00.png	charged. I went to canua and made the
+test_img57_r04_00.png	logo according to his speatications and
+test_img57_r05_00.png	put it in the app So far, he liket the
+test_img57_r06_00.png	logo- I also added a auard against ECDC
+test_img57_r07_00.png	eyncs so that only tiadhers with kinder
+test_img57_r08_00.png	ubgects can only sync ECDC I poshed the
+test_img57_r09_00.png	changes to Github.
+test_img57_r10_00.png	Aftrnoon, I helped Miso Staff get splics and
+test_img57_r11_00.png	get them in the building.
+test_img58_r00_00.png	DATE Sephumber 30, hon,
+test_img58_r01_00.png	Aftir apriving at ulso, I opened my laptop and
+test_img58_r02_00.png	workd on the app I began wth improning the
+test_img58_r03_00.png	information displayen on the driatey goard when
+test_img58_r04_00.png	enik visited and opon his request i added an
+test_img58_r05_00.png	ipload for usir profiles to liven y thea
+test_img58_r06_00.png	offer cosmetics.
+test_img58_r07_00.png	Sir. Enik repor ted a bug there the app cannot
+test_img58_r08_00.png	sunc Ecde I spent the afteraoon dibouaging, unli
+test_img58_r09_00.png	I fand th cause and it didn't have ang thing
+test_img58_r10_00.png	to to fuith the code, On Sir trik's machime,
+test_img58_r11_00.png	he accidintally used an upodated apy of the
+test_img58_r12_00.png	StARs system. After fixing it, we were able
+test_img58_r13_00.png	to Syno tebc again deanly.
+test_img59_r00_00.png	DATE October 1, non4
+test_img59_r01_00.png	Upon arrining at Miso, atter iptting Sir. trik.
+test_img59_r02_00.png	plled the updates from miso-rein repository to get
+test_img59_r03_00.png	the working EcDe Upload Apl. I then wrote in
+test_img59_r04_00.png	the code to communicath data inte the StARs
+test_img59_r05_00.png	eystem. After confirmation that the transportation
+test_img59_r06_00.png	of the data is success ful, I wrote a peek to
+test_img59_r07_00.png	semary bulton that shows tallied penlts per
+test_img59_r08_00.png	student card. I pushed the changes to my
+test_img59_r09_00.png	work reposifory and sent sir Erik an updated
+test_img59_r10_00.png	version of the app, He, Sir. Erik, Sir- Derel, and
+test_img59_r11_00.png	Sir Rein went to lunch fogether. After that, (headed
+test_img59_r12_00.png	sthool.
+test_img6_r00_00.png	DATE September 15, 2016
+test_img6_r01_00.png	Iarrived at miso and went into a mecting with sit
+test_img6_r02_00.png	Enik and Sir Rein abat a bug afficting scans.
+test_img6_r03_00.png	we talked abot how to fix itand proposed solutions
+test_img6_r04_00.png	abat the gereral layaut of the wew Early
+test_img6_r05_00.png	dhild hood tevelopment chectlist cecoc)I statohed
+test_img6_r06_00.png	the Ul and explained the flow to sir trik After
+test_img6_r07_00.png	we agreed on a design, I immediately starked working
+test_img6_r08_00.png	on the leaking scans data I also worled
+test_img6_r09_00.png	on the named of the backup data to reflect
+test_img6_r10_00.png	the name of the keacher in the File name.
+test_img6_r11_00.png	I also fixed quizes and ansuer lay datar partiov_
+test_img6_r12_00.png	larly ansuer buys leaking into other users. this
+test_img6_r13_00.png	affernoon was fritiful as Iwas able do thata
+test_img6_r14_00.png	the afp remember the data of teachers the
+test_img6_r15_00.png	wext time they login ather.
+test_img6_r16_00.png	Athr this, I imprond some vi elements and
+test_img6_r17_00.png	did come tidying upith the code.
+test_img60_r00_00.png	DATE October n, nony
+test_img60_r01_00.png	I began the day by refactoring and deaning
+test_img60_r02_00.png	the app's code as well as inspecting for bugs.
+test_img60_r03_00.png	I fixed a bug wheri saving a quiz will get thron
+test_img60_r04_00.png	wen though the same student already exists,.
+test_img60_r05_00.png	duplicating instead of overriding, also fired
+test_img60_r06_00.png	nother bug where the bread aumbing hail is
+test_img60_r07_00.png	incomect for Quizres. After this, I put the
+test_img60_r08_00.png	student's name in the qvizces inslead of cRN
+test_img60_r09_00.png	rumbure
+test_img7_r00_00.png	DATE Siplember 14, 2o24
+test_img7_r01_00.png	a bug hands -on and Identified it as a user
+test_img7_r02_00.png	error rather than systim/app errar. It was becave
+test_img7_r03_00.png	two asessments with the same name got confosed
+test_img7_r04_00.png	together, causing the bad scan bug. Afhr the
+test_img7_r05_00.png	confirmation, we disoussed and latur uith sir Rein
+test_img7_r06_00.png	abat the implementation of a rew tab called
+test_img7_r07_00.png	"ECD" for kindergartin- I then inerged my
+test_img7_r08_00.png	working githuh repository unith the system's rebo
+test_img7_r09_00.png	to get the latist updafe from sir Rein.
+test_img7_r10_00.png	While owaiting for sir Rein to unte the API for the
+test_img7_r11_00.png	ECD Sgnc,I began to implement a new Jab called"ECD",
+test_img7_r12_00.png	being an addition fo the row of existing tabsin
+test_img7_r13_00.png	the botom navigation bar. the beginning of the.
+test_img7_r14_00.png	implimentation was making sure the tah remembers
+test_img7_r15_00.png	where it was lelf off by the user. then!
+test_img7_r16_00.png	cidded the sync ECCD button.
+test_img8_r00_00.png	DATE September Il, Lo2o
+test_img8_r01_00.png	Uon ariinga Miso, oeed android sidio to prepan
+test_img8_r02_00.png	the code and had imports loaded. I set up the
+test_img8_r03_00.png	StARs sysem for festing and bigan working on the
+test_img8_r04_00.png	code. my task was to fix the leaking assessrents
+test_img8_r05_00.png	datk pon user switch. when a user signs in ang
+test_img8_r06_00.png	synck assessments and create ones in the app, the
+test_img8_r07_00.png	other onigue user mill also the see the pretious
+test_img8_r08_00.png	siged in user's assissiment data. the comunit
+test_img8_r09_00.png	number s6 846.58 fixed the bag and the updale
+test_img8_r10_00.png	iss pushed to gitbob for version control.
+test_img9_r00_00.png	DATE Seplember 7, 2024
+test_img9_r01_00.png	Thilped Maiam Julic along wth sir picto set up
+test_img9_r02_00.png	our place during the flag ceremony and asssted
+test_img9_r03_00.png	the feam on selthing up laptops for the pageant
+test_img9_r04_00.png	Governor Sol Aragones visited amid the heau
+test_img9_r05_00.png	rain fall. After the cheerleading contist was
+test_img9_r06_00.png	dame, I helped the team pack op ovr exipme
+test_img9_r07_00.png	and bning them back to miso.

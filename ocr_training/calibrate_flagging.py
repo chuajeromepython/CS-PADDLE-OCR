@@ -40,6 +40,9 @@ Usage:
     python calibrate_flagging.py eval_set/ --rec-model-dir ./iam_finetune_infer
     python calibrate_flagging.py eval_set/ --wordlist words.txt --dump-csv words.csv
 
+Training-data export (journal photos, no labels needed):
+    python calibrate_flagging.py journal_photos/ --crops-only journal_crops/
+
 Dictionary: pass --wordlist (one word per line, or "word count" per line).
 If omitted, the script tries the frequency dictionary bundled with symspellpy
 (pip install symspellpy). If neither is found, the conf+oov rule is skipped.
@@ -179,6 +182,57 @@ def align(gt_norm, ocr_norm):
     return is_error, gt_for, missed
 
 
+# ------------------------------------------------------------ crop export --
+
+def save_crops(img, page, out_dir, base, pad=4):
+    """Save one image per detected region, in reading order, and return
+    [(filename, draft_text)]. Crops come from the same resized image the OCR
+    saw, so training crops match what the recognizer gets at inference."""
+    import cv2
+    getter = page.get if hasattr(page, "get") else (lambda k, d=None: page[k])
+    texts = list(getter("rec_texts", []))
+    boxes = _boxes_from_page(page, len(texts)) if texts else None
+    if boxes is None:
+        return []
+    h, w = img.shape[:2]
+    out = []
+    for r, row in enumerate(group_rows(boxes)):
+        for k, i in enumerate(row):
+            x0, y0, x1, y1 = boxes[i]
+            x0, y0 = max(int(x0) - pad, 0), max(int(y0) - pad, 0)
+            x1, y1 = min(int(x1) + pad, w), min(int(y1) + pad, h)
+            if x1 - x0 < 4 or y1 - y0 < 4:
+                continue
+            name = f"{base}_r{r:02d}_{k:02d}.png"
+            ok, buf = cv2.imencode(".png", img[y0:y1, x0:x1])
+            if ok:
+                buf.tofile(os.path.join(out_dir, name))
+                out.append((name, texts[i]))
+    return out
+
+
+def crops_only(ocr, image_dir, out_dir, max_side):
+    """Run the detector on every image in image_dir (no labels needed) and
+    write crops plus draft_labels.txt (filename<TAB>OCR text) to out_dir."""
+    os.makedirs(out_dir, exist_ok=True)
+    rows = []
+    for fname in sorted(os.listdir(image_dir)):
+        if not fname.lower().endswith((".jpg", ".jpeg", ".png")):
+            continue
+        base = os.path.splitext(fname)[0]
+        img = load_resized(os.path.join(image_dir, fname), max_side)
+        result = ocr.predict(img)
+        page = result[0] if result else {}
+        made = save_crops(img, page, out_dir, base)
+        rows.extend(made)
+        print(f"{fname}: {len(made)} crops")
+    with open(os.path.join(out_dir, "draft_labels.txt"), "w", encoding="utf-8") as f:
+        for name, text in rows:
+            f.write(f"{name}\t{text}\n")
+    print(f"\nWrote {len(rows)} crops and draft_labels.txt to {out_dir}")
+    print("Correct EVERY line of draft_labels.txt against its crop before training.")
+
+
 # ------------------------------------------------------------------ report --
 
 def rule_stats(flag, err):
@@ -295,15 +349,19 @@ def main():
     ap.add_argument("--wordlist", default=None, help="Dictionary file for the OOV rule")
     ap.add_argument("--csv", default=None, help="Save the threshold table to this CSV")
     ap.add_argument("--dump-csv", default=None, help="Save every OCR word with its label")
+    ap.add_argument("--crops-only", metavar="OUT_DIR", default=None,
+                    help="Skip calibration. Save a crop per detected region of every image "
+                         "in eval_dir (labels not needed) plus draft_labels.txt in OUT_DIR")
     args = ap.parse_args()
 
     from paddleocr import PaddleOCR  # imported late so the helpers above are testable
 
-    pairs = load_eval_pairs(args.eval_dir)
+    pairs = load_eval_pairs(args.eval_dir) if not args.crops_only else [("", "")]
     if not pairs:
         print(f"No image/ground-truth pairs found in {args.eval_dir}.")
         sys.exit(1)
-    print(f"Loaded {len(pairs)} evaluation pairs.")
+    if not args.crops_only:
+        print(f"Loaded {len(pairs)} evaluation pairs.")
 
     kwargs = dict(use_doc_orientation_classify=False, use_doc_unwarping=False,
                   use_textline_orientation=True, lang="en", enable_mkldnn=False)
@@ -318,6 +376,10 @@ def main():
     else:
         print("Using stock PaddleOCR models.")
     ocr = PaddleOCR(**kwargs)
+
+    if args.crops_only:
+        crops_only(ocr, args.eval_dir, args.crops_only, args.max_side)
+        return
 
     all_words, missed, total_gt = collect(ocr, pairs, args.max_side)
     print(f"\nTruth words the OCR missed entirely (unflaggable): {missed} of {total_gt} "
