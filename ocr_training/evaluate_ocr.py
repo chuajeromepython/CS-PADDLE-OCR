@@ -86,7 +86,9 @@ def load_resized(image_path, max_side=DEFAULT_MAX_SIDE):
     longest = max(h, w)
     if max_side and longest > max_side:
         scale = max_side / longest
-        img = cv2.resize(img, (int(w * scale), int(h * scale)), interpolation=cv2.INTER_AREA)
+        from PIL import Image
+        pil = Image.fromarray(cv2.cvtColor(img, cv2.COLOR_BGR2RGB)).resize((int(w * scale), int(h * scale)), Image.LANCZOS)
+        img = cv2.cvtColor(np.array(pil), cv2.COLOR_RGB2BGR)
     return img
 
 
