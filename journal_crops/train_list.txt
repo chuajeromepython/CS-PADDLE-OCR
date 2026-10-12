@@ -1,0 +1,498 @@
+journal_crops/test_img1_r00_00.png	DATE June 22, 2026
+journal_crops/test_img1_r01_00.png	I arrived at the Management Information Systems
+journal_crops/test_img1_r02_00.png	Office building. I was then recieved by Maam Steph
+journal_crops/test_img1_r03_00.png	who I had been updating about my OJT application for
+journal_crops/test_img1_r04_00.png	the past two weeks. She introduced me to Sir Derel
+journal_crops/test_img1_r05_00.png	and Sir Mer. Sir Mer looked at my resume and asked
+journal_crops/test_img1_r06_00.png	questions about coding to which I answered faithfully based
+journal_crops/test_img1_r07_00.png	on my experience coding. Later, Sir Derel introduced
+journal_crops/test_img1_r08_00.png	me to the Eufy Camera pipeline. We discussed how
+journal_crops/test_img1_r09_00.png	Eufy Camera worked and a hypothetical solution to get
+journal_crops/test_img1_r10_00.png	it working according to the department's needs. I was
+journal_crops/test_img1_r11_00.png	also introduced to PHP and Laravel. After Inspecting
+journal_crops/test_img1_r12_00.png	the cameras installed outside the the module in which
+journal_crops/test_img1_r13_00.png	data got stored inside, I spent the day reading about
+journal_crops/test_img1_r14_00.png	Eufy Cameras and PHP and Laravel in my laptop.
+journal_crops/test_img10_r00_00.png	DATE September 2, 2026
+journal_crops/test_img10_r01_00.png	I arrived at MISO. After joining the morning prayers, I opened
+journal_crops/test_img10_r02_00.png	my laptop and began checking the accuracy of the
+journal_crops/test_img10_r03_00.png	STARS manual. I then began collecting screenshots
+journal_crops/test_img10_r04_00.png	for the manual to guide teachers and other users
+journal_crops/test_img10_r05_00.png	how to use the app. After collecting the screenshots
+journal_crops/test_img10_r06_00.png	I compiled them and inserted to the manual. With
+journal_crops/test_img10_r07_00.png	annotations, I placed them in sections that best
+journal_crops/test_img10_r08_00.png	represent them.
+journal_crops/test_img10_r09_00.png	By afternoon, I continued working on the manual while
+journal_crops/test_img10_r10_00.png	at the same time checking the app's code for bugs
+journal_crops/test_img10_r11_00.png	and last minute changes and fixes.
+journal_crops/test_img11_r00_00.png	DATE September 1, 2026
+journal_crops/test_img11_r01_00.png	I opened my laptop and clicked the app's github
+journal_crops/test_img11_r02_00.png	repository. After that, Android studio to begin working.
+journal_crops/test_img11_r03_00.png	I fixed the backup scoping to ensure backup data
+journal_crops/test_img11_r04_00.png	only contains data that a specific teacher created
+journal_crops/test_img11_r05_00.png	and no data from other users should be in it.
+journal_crops/test_img11_r06_00.png	I also fixed some elements in the UI to update
+journal_crops/test_img11_r07_00.png	live when syncs happen as well as some minor UI
+journal_crops/test_img11_r08_00.png	changes and improvements. After this I shifted my
+journal_crops/test_img11_r09_00.png	attention to the app's user manual and updated
+journal_crops/test_img11_r10_00.png	it.
+journal_crops/test_img11_r11_00.png	In the afternoon I focused on rewriting the manual
+journal_crops/test_img11_r12_00.png	to reflect the current state of the app.
+journal_crops/test_img12_r00_00.png	DATE August 28, 2026
+journal_crops/test_img12_r01_00.png	I assisted Sir Martin in setting up the photo
+journal_crops/test_img12_r02_00.png	booth. I took pictures for mothers in the
+journal_crops/test_img12_r03_00.png	event as well as guide them where to look
+journal_crops/test_img12_r04_00.png	and how many shots the session would take
+journal_crops/test_img12_r05_00.png	I also helped bring some luggage into the
+journal_crops/test_img12_r06_00.png	office and once the event finished, helped
+journal_crops/test_img12_r07_00.png	the team pack up and leave
+journal_crops/test_img13_r00_00.png	DATE August 26, 2026
+journal_crops/test_img13_r01_00.png	scans identification easier.
+journal_crops/test_img13_r02_00.png	Then I included synced assessment / answer key data
+journal_crops/test_img13_r03_00.png	to the backup. While taking scope into consideration
+journal_crops/test_img13_r04_00.png	The backup should only restore data to the current
+journal_crops/test_img13_r05_00.png	signed in user and should not be able to be
+journal_crops/test_img13_r06_00.png	used by other users.
+journal_crops/test_img14_r00_00.png	DATE August 17, 2026
+journal_crops/test_img14_r01_00.png	I attended the capitol's flag ceremony. After that
+journal_crops/test_img14_r02_00.png	I opened my laptop and began working on the app.
+journal_crops/test_img14_r03_00.png	the first thing I did was make anchor detection
+journal_crops/test_img14_r04_00.png	more consistent by removing the single frame
+journal_crops/test_img14_r05_00.png	lock and making it so that all the app
+journal_crops/test_img14_r06_00.png	needs to do is lock on individual anchors,
+journal_crops/test_img14_r07_00.png	keep them locked until the others are also
+journal_crops/test_img14_r08_00.png	locked before the capture occurs.
+journal_crops/test_img15_r00_00.png	DATE August 19, 2026
+journal_crops/test_img15_r01_00.png	opened STARS's website. I then opend Android
+journal_crops/test_img15_r02_00.png	studio to begin working on calibrating 2PH40
+journal_crops/test_img15_r03_00.png	and 2PH60. I first investigated the anomaly when
+journal_crops/test_img15_r04_00.png	2PH60 was somehow less effective at detecting no. 2
+journal_crops/test_img15_r05_00.png	pencil marks compared to 2PH40 which does the job
+journal_crops/test_img15_r06_00.png	well.
+journal_crops/test_img16_r00_00.png	DATE July 22, 2026
+journal_crops/test_img16_r01_00.png	I pushed the changes made yesterday to the
+journal_crops/test_img16_r02_00.png	app's github repository for version control. After
+journal_crops/test_img16_r03_00.png	this, I moved on to replace every native android
+journal_crops/test_img16_r04_00.png	dialog boxes in the app with a card to enhance
+journal_crops/test_img16_r05_00.png	the user experience. Then I decided to study
+journal_crops/test_img16_r06_00.png	the anomaly to prepare for future proofing since
+journal_crops/test_img16_r07_00.png	encountering the problem would result in rigorous
+journal_crops/test_img16_r08_00.png	debugging and research. The tilt agnostic mode
+journal_crops/test_img16_r09_00.png	worked as intended. But real performance will be
+journal_crops/test_img16_r10_00.png	tested when we get a proper print of the sheets
+journal_crops/test_img16_r11_00.png	with ArUco markers because right now we were
+journal_crops/test_img16_r12_00.png	only using a photo edited version of it.
+journal_crops/test_img17_r00_00.png	DATE July 16, 2026
+journal_crops/test_img17_r01_00.png	When I was testing the app, I happen to notice that when
+journal_crops/test_img17_r02_00.png	I sync after syncing moments ago, assessment data
+journal_crops/test_img17_r03_00.png	would disappear. The explanation was that when
+journal_crops/test_img17_r04_00.png	the user syncs for the second time, when classes
+journal_crops/test_img17_r05_00.png	arrive to the app, the data resets back to the
+journal_crops/test_img17_r06_00.png	initial state, the state of fresh sync. I added a
+journal_crops/test_img17_r07_00.png	persistence algorithm to ensure the data is saved
+journal_crops/test_img17_r08_00.png	when assessments are made from the app so
+journal_crops/test_img17_r09_00.png	resyncing wouldn't wipe them all out. Then I had a
+journal_crops/test_img17_r10_00.png	discussion with sir Erik about the database
+journal_crops/test_img17_r11_00.png	filling up when the user syncs over and over again.
+journal_crops/test_img17_r12_00.png	Then I implemented a fail safe mechanism to
+journal_crops/test_img17_r13_00.png	handle multiple answer entries so they dont break
+journal_crops/test_img17_r14_00.png	the system.
+journal_crops/test_img18_r00_00.png	DATE July 15, 2026
+journal_crops/test_img18_r01_00.png	The scanner for 2PH60 had minor problems like
+journal_crops/test_img18_r02_00.png	difficulty detecting the anchors and the same
+journal_crops/test_img18_r03_00.png	orientation problems. After addressing those and
+journal_crops/test_img18_r04_00.png	fixing them, I had a discussion with Sir Erik
+journal_crops/test_img18_r05_00.png	about a possible future feature, a student-specific
+journal_crops/test_img18_r06_00.png	profile within the app, which gave me a sense
+journal_crops/test_img18_r07_00.png	of where the project might be headed. After
+journal_crops/test_img18_r08_00.png	the discussion, I continued working on the
+journal_crops/test_img18_r09_00.png	2PH60 format to improve it and make it foolproof
+journal_crops/test_img19_r00_00.png	DATE July 10, 2026
+journal_crops/test_img19_r01_00.png	I used Claude to investigate more robust ways
+journal_crops/test_img19_r02_00.png	to do scans I noticed, throughout the past days
+journal_crops/test_img19_r03_00.png	testing, rotation anomalies and anchor detection
+journal_crops/test_img19_r04_00.png	problems. I decided to look into them in detail
+journal_crops/test_img19_r05_00.png	to fix the root cause of why the app couldn't
+journal_crops/test_img19_r06_00.png	scan with written names on the sheet. Most of
+journal_crops/test_img19_r07_00.png	the day was spent trying to determine the
+journal_crops/test_img19_r08_00.png	cause of the bug. While I had suspicions of the
+journal_crops/test_img19_r09_00.png	app not knowing how to accurately orient the image
+journal_crops/test_img19_r10_00.png	captured, I couldn't know for sure until my next duty.
+journal_crops/test_img2_r00_00.png	DATE September 22, 2026
+journal_crops/test_img2_r01_00.png	I arrived at MISO and set up my laptop. Sir
+journal_crops/test_img2_r02_00.png	Erik came to visit and we discussed in
+journal_crops/test_img2_r03_00.png	detail the implementation of ECDC tab
+journal_crops/test_img2_r04_00.png	in the app. We talked about how the
+journal_crops/test_img2_r05_00.png	app will communicate with the system and
+journal_crops/test_img2_r06_00.png	what shape of the data it should throw.
+journal_crops/test_img2_r07_00.png	we also talked about the current state of
+journal_crops/test_img2_r08_00.png	the feature and I suggested we don't
+journal_crops/test_img2_r09_00.png	change anything in the template and just
+journal_crops/test_img2_r10_00.png	let the app send a timestamp so the
+journal_crops/test_img2_r11_00.png	system can calculate the child's age using
+journal_crops/test_img2_r12_00.png	this datapoint. Sir Erik showed me the
+journal_crops/test_img2_r13_00.png	inconveniences the teachers have to go through
+journal_crops/test_img2_r14_00.png	managing paperworks and the digital appearance
+journal_crops/test_img2_r15_00.png	of these files.
+journal_crops/test_img2_r16_00.png	I spent the afternoon reviewing the code
+journal_crops/test_img2_r17_00.png	responsible for ECDC functionality and
+journal_crops/test_img2_r18_00.png	assessed its current implementation. I
+journal_crops/test_img2_r19_00.png	attended the spiritual meeting and returned
+journal_crops/test_img2_r20_00.png	to the lab urgently after.
+journal_crops/test_img20_r00_00.png	DATE July 9, 2026
+journal_crops/test_img20_r01_00.png	Sir Erik, Sir Rein, and I went to Santa Maria
+journal_crops/test_img20_r02_00.png	their local machine. At the same time, I oversaw
+journal_crops/test_img20_r03_00.png	the site. I also implemented on the spot an
+journal_crops/test_img20_r04_00.png	"upload assessment" functionality to allow, this time,
+journal_crops/test_img20_r05_00.png	the app to send assessment data to the system
+journal_crops/test_img20_r06_00.png	in a one way fashion. But a bug emerged. The
+journal_crops/test_img20_r07_00.png	app would struggle to scan sheets with writings on it.
+journal_crops/test_img20_r08_00.png	I took the initiative to explain to one of the
+journal_crops/test_img20_r09_00.png	teachers how the app works and listened to a
+journal_crops/test_img20_r10_00.png	feature request from him.
+journal_crops/test_img20_r11_00.png	All three of us went home safe.
+journal_crops/test_img21_r00_00.png	DATE July 8, 2026.
+journal_crops/test_img21_r01_00.png	Today's target next was the student's LRN
+journal_crops/test_img21_r02_00.png	(Learner Reference Number). Sir Rein gave me the
+journal_crops/test_img21_r03_00.png	API call signature and using the same pattern I did
+journal_crops/test_img21_r04_00.png	with classes, also successfully fetched data from
+journal_crops/test_img21_r05_00.png	the system and wrote it into student_lrn table in
+journal_crops/test_img21_r06_00.png	the app's database. This data was essential in
+journal_crops/test_img21_r07_00.png	keeping record of students and answer validation.
+journal_crops/test_img21_r08_00.png	After seeing LRN data populate the app's student_lrn
+journal_crops/test_img21_r09_00.png	table, I decided to investigate the data table to
+journal_crops/test_img21_r10_00.png	see what it was made of.
+journal_crops/test_img22_r00_00.png	DATE July 7, 2026
+journal_crops/test_img22_r01_00.png	A major feature implementation was on the way.
+journal_crops/test_img22_r02_00.png	the idea was to make possible synchronization
+journal_crops/test_img22_r03_00.png	of data with the system and the app. when
+journal_crops/test_img22_r04_00.png	in sync, the app should get data from the
+journal_crops/test_img22_r05_00.png	system. My goal was to create a button that
+journal_crops/test_img22_r06_00.png	will call an API to the system. The system will
+journal_crops/test_img22_r07_00.png	then send data through the api and the app will
+journal_crops/test_img22_r08_00.png	display them as Classes data. I made the
+journal_crops/test_img22_r09_00.png	button and successfully synced Class data from
+journal_crops/test_img22_r10_00.png	the system. Now whatever class data exists in
+journal_crops/test_img22_r11_00.png	the system, the teachers can sync with the system
+journal_crops/test_img22_r12_00.png	to get their own respective classes.
+journal_crops/test_img22_r13_00.png	I pushed the changes to the app's repository
+journal_crops/test_img22_r14_00.png	on Github to secure the update.
+journal_crops/test_img23_r00_00.png	DATE July 6, 2026
+journal_crops/test_img23_r01_00.png	I worked with the QR code scanner to fetch user
+journal_crops/test_img23_r02_00.png	data from the app's local database. Sir Rein encoded
+journal_crops/test_img23_r03_00.png	data into the QR code and my goal is to extract
+journal_crops/test_img23_r04_00.png	that data and turn it into displayable information
+journal_crops/test_img23_r05_00.png	in the app's UI. After this I implemented a new
+journal_crops/test_img23_r06_00.png	scanning scheme to improve the app's scanning
+journal_crops/test_img23_r07_00.png	capability. And tested it with real OMR sheets.
+journal_crops/test_img23_r08_00.png	The day was spent testing and tuning the
+journal_crops/test_img23_r09_00.png	scanner to make sure the users would get more
+journal_crops/test_img23_r10_00.png	successful scans vs failed scans.
+journal_crops/test_img24_r00_00.png	DATE July 3, 2026
+journal_crops/test_img24_r01_00.png	is responsible for throwing data from the system
+journal_crops/test_img24_r01_01.png	to the app and vice versa. In order for my work
+journal_crops/test_img24_r02_00.png	to be fruitful, I had to also study how this
+journal_crops/test_img24_r03_00.png	system works. I was successful at fetching
+journal_crops/test_img24_r04_00.png	data from the system and even wrote it into
+journal_crops/test_img24_r05_00.png	the new table I made on June 26, 2026. I also
+journal_crops/test_img24_r06_00.png	wrote logs to check ping connection, or connectivity
+journal_crops/test_img24_r07_00.png	with the system. Though the success came from many
+journal_crops/test_img24_r08_00.png	trial and error tests.
+journal_crops/test_img25_r00_00.png	DATE July 2, 2026
+journal_crops/test_img25_r01_00.png	The presentation of my proposals came. I had the
+journal_crops/test_img25_r02_00.png	chance to explain the changes I made to Sir Erik
+journal_crops/test_img25_r03_00.png	personally. I explained by demonstration why such
+journal_crops/test_img25_r04_00.png	changes would be beneficial to the app and its
+journal_crops/test_img25_r05_00.png	users. We agreed on a design. After it had
+journal_crops/test_img25_r06_00.png	been noted, we moved the discussion to the app's
+journal_crops/test_img25_r07_00.png	primary function, the OMR Scanner. Before I touched
+journal_crops/test_img25_r08_00.png	the app's code base, the app's scanner displayed
+journal_crops/test_img25_r09_00.png	behaviors that cannot be ignored such as inability
+journal_crops/test_img25_r10_00.png	to scan when the sheet was placed upside down.
+journal_crops/test_img25_r11_00.png	Sir Erik and I discussed how to improve the scanner.
+journal_crops/test_img25_r12_00.png	Then I suggested putting guide boxes to help
+journal_crops/test_img25_r13_00.png	teachers align the sheet's printed anchors with the
+journal_crops/test_img25_r14_00.png	green box. The suggestion acted as crutches to
+journal_crops/test_img25_r15_00.png	determine how the app will perform under such
+journal_crops/test_img25_r16_00.png	change.
+journal_crops/test_img26_r00_00.png	DATE July 1, 2026
+journal_crops/test_img26_r01_00.png	Sir Derel told me to make at least three proposals
+journal_crops/test_img26_r02_00.png	so Sir Erik can choose. I spent the entirety of the
+journal_crops/test_img26_r03_00.png	day creating proposals in Figma, designing the
+journal_crops/test_img26_r04_00.png	app's UI to cover the app's weak points and
+journal_crops/test_img26_r05_00.png	making navigation easy to follow and track.
+journal_crops/test_img26_r06_00.png	Time to time, I would also study the app's code
+journal_crops/test_img26_r07_00.png	base to help me design accurate changes without
+journal_crops/test_img26_r08_00.png	ruining the app's design integrity.
+journal_crops/test_img27_r00_00.png	DATE June 29, 2026
+journal_crops/test_img27_r01_00.png	Sir Erik and I discussed the current UX / UI design of
+journal_crops/test_img27_r02_00.png	the app, pointing out the complexity of its UX and how
+journal_crops/test_img27_r03_00.png	less tech-savy teachers might get lost in the app.
+journal_crops/test_img27_r04_00.png	We decided to address this design flaw and committed
+journal_crops/test_img27_r05_00.png	to making the app user friendly, easy to use but
+journal_crops/test_img27_r06_00.png	without removing the complex nature of the app, and
+journal_crops/test_img27_r07_00.png	improving the app's core vision, to make checking our
+journal_crops/test_img27_r08_00.png	sheets easy without sacrificing functionality.
+journal_crops/test_img27_r09_00.png	Related to this, Sir Derel and Sir Erik tasked me
+journal_crops/test_img27_r10_00.png	to make design proposals for the app. I chose to
+journal_crops/test_img27_r11_00.png	do the proposals in Figma. Sir Allen gave me an
+journal_crops/test_img27_r12_00.png	introduction in Figma and made my first design
+journal_crops/test_img27_r13_00.png	proposal.
+journal_crops/test_img28_r00_00.png	DATE June 26, 2026
+journal_crops/test_img28_r01_00.png	Even though I successfully implemented the QR scanner
+journal_crops/test_img28_r02_00.png	feature assigned to me by Sir Roi, I took the initiative
+journal_crops/test_img28_r03_00.png	to study the app's codebase at a deeper level, uncovering
+journal_crops/test_img28_r04_00.png	how the methods are used in the app, the first
+journal_crops/test_img28_r05_00.png	screen that the users see upon opening, how the
+journal_crops/test_img28_r06_00.png	XML files are built and wired to build the UI, and how
+journal_crops/test_img28_r07_00.png	data flows throughout the app. I aslo added a soft
+journal_crops/test_img28_r08_00.png	gate or disclaimer to warn the users when adding
+journal_crops/test_img28_r09_00.png	new classes and answer keys as addition of said
+journal_crops/test_img28_r10_00.png	elements should be given by the system and not the
+journal_crops/test_img28_r11_00.png	users. As per sir Roi's Mobile App Connect Module.
+journal_crops/test_img29_r00_00.png	DATE June 25, 2026
+journal_crops/test_img29_r01_00.png	I was allowed to join the briefing for STARS new
+journal_crops/test_img29_r01_01.png	features implementation. The briefing was led by
+journal_crops/test_img29_r02_00.png	Sir Roi. I was assigned to implement a QR code
+journal_crops/test_img29_r03_00.png	system and save it in the app's internal database.
+journal_crops/test_img29_r04_00.png	Sir Rein also assigned me to create a new table
+journal_crops/test_img29_r05_00.png	in the app's database ecosystem to store said
+journal_crops/test_img29_r06_00.png	data obtained from the QR scan.
+journal_crops/test_img3_r00_00.png	DATE September 18, 2026
+journal_crops/test_img3_r01_00.png	Upon arriving at MISO, I opened my laptop to
+journal_crops/test_img3_r02_00.png	load the stars project in VSCode. While loading I
+journal_crops/test_img3_r02_01.png	reviewed my plan to implement ECDC. When the
+journal_crops/test_img3_r03_00.png	project loaded, I began to code the feature. I
+journal_crops/test_img3_r04_00.png	started by sync the app with the system and
+journal_crops/test_img3_r05_00.png	recieved by the app. I then created two more
+journal_crops/test_img3_r06_00.png	tables to the app's local database to store
+journal_crops/test_img3_r07_00.png	the data coming from the system. Once that
+journal_crops/test_img3_r08_00.png	was done, I added an empty upload button
+journal_crops/test_img3_r09_00.png	to judge what the design would look like. Then
+journal_crops/test_img3_r10_00.png	I added selectors for the terms but made them
+journal_crops/test_img3_r11_00.png	placeholders until the system changes a few
+journal_crops/test_img3_r12_00.png	details. I activated the search to search for
+journal_crops/test_img3_r13_00.png	students and successfully rendered them on
+journal_crops/test_img3_r14_00.png	the screen.
+journal_crops/test_img30_r00_01.png	DATE June 24, 2026
+journal_crops/test_img30_r01_00.png	I continued studying STARS's code base, reading
+journal_crops/test_img30_r02_00.png	through documentations, developers' comments in the
+journal_crops/test_img30_r03_00.png	code, README file on the app's repository, and
+journal_crops/test_img30_r04_00.png	OpenCV. I also continued studying PHP and Laravel
+journal_crops/test_img30_r05_00.png	and how to use XAMPP properly until I reached a
+journal_crops/test_img30_r06_00.png	solid understanding of the basics and built a chat
+journal_crops/test_img30_r07_00.png	bot using GROQ API. I spent the day studying
+journal_crops/test_img30_r08_00.png	STARS codebase.
+journal_crops/test_img31_r00_00.png	DATE June 23, 2026
+journal_crops/test_img31_r01_00.png	I set up my laptop to run PHP and Laravel apps.
+journal_crops/test_img31_r02_00.png	This included downloading relevant software such as XAMPP
+journal_crops/test_img31_r03_00.png	and doing system modifications for Laravel. After
+journal_crops/test_img31_r03_01.png	that, I cloned the STARS repository from Github
+journal_crops/test_img31_r04_00.png	STARS is an android application for Scanning Optical
+journal_crops/test_img31_r05_00.png	Mark Recognition (OMR) sheets using a phone's
+journal_crops/test_img31_r06_00.png	camera. I ran the codebase and saw for the first
+journal_crops/test_img31_r07_00.png	time the app's Graphical User Interface (GUI). The
+journal_crops/test_img31_r08_00.png	codebase was huge. Together it consists of 1.2 giga
+journal_crops/test_img31_r09_00.png	bytes of storage. At that point, I began studying
+journal_crops/test_img31_r10_00.png	the codebase to understand what the app does.
+journal_crops/test_img31_r12_00.png	As a side quest, I built a simple forum with PHP
+journal_crops/test_img31_r13_00.png	and Laravel as per Sir Derel's request.
+journal_crops/test_img32_r00_00.png	DATE July 24, 2026
+journal_crops/test_img32_r01_00.png	I added a Basic Camera Mode solely for
+journal_crops/test_img32_r02_00.png	I successfully emulated the bug and got a full
+journal_crops/test_img32_r03_00.png	understanding of it. I decided to leave this
+journal_crops/test_img32_r04_00.png	mode in the app for future possible use case like
+journal_crops/test_img32_r05_00.png	a new camera mode or a blank slate for a
+journal_crops/test_img32_r06_00.png	better ArUco implementation.
+journal_crops/test_img32_r07_00.png	I also replaced every multi-shaded bubbles with
+journal_crops/test_img32_r08_00.png	yellow for better readability so the teachers would
+journal_crops/test_img32_r09_00.png	know right away what appears in their scans.
+journal_crops/test_img32_r10_00.png	To finish off the week, I attended Doc Abie's
+journal_crops/test_img32_r11_00.png	class and had my weekly report checked by her.
+journal_crops/test_img33_r00_00.png	DATE July 27, 2026
+journal_crops/test_img33_r01_00.png	I revisited my UI proposals and decided it was time
+journal_crops/test_img33_r02_00.png	to build the app one UI element after another. I began
+journal_crops/test_img33_r03_00.png	to implement a bottom navigation bar (nav bar) and
+journal_crops/test_img33_r04_00.png	made the first item "User" along with home. Users
+journal_crops/test_img33_r05_00.png	would contain basic information about the teacher and
+journal_crops/test_img33_r06_00.png	moved the QR Scan button there. I also added
+journal_crops/test_img33_r07_00.png	Assessments and Answer Keys into the nav bar and
+journal_crops/test_img33_r08_00.png	successfully rendered them. To filter assessments and
+journal_crops/test_img33_r09_00.png	answer keys, I added a button that will group them
+journal_crops/test_img33_r10_00.png	by their classes or sheet type. I spent the day
+journal_crops/test_img33_r11_00.png	polishing the UI to match the app's inherent aesthe
+journal_crops/test_img34_r00_00.png	DATE July 28, 2026
+journal_crops/test_img34_r01_00.png	I improved the existing Assessment filter by adding
+journal_crops/test_img34_r02_00.png	as Assessment type. I also fixed the sheet type
+journal_crops/test_img34_r02_01.png	filter by removing excess text from the card's contents.
+journal_crops/test_img34_r03_00.png	Revisiting the proposal I made with figma, I reviewed
+journal_crops/test_img34_r04_00.png	which UI element I should add to the app. It was also
+journal_crops/test_img34_r05_00.png	time to reflect what the app has gone through
+journal_crops/test_img34_r06_00.png	compared to the day I first made a change and
+journal_crops/test_img34_r07_00.png	touched its data base.
+journal_crops/test_img34_r08_00.png	I also added legends in the Detection Results screen
+journal_crops/test_img34_r09_00.png	to guide the users to what color dots represents. The legend
+journal_crops/test_img34_r10_00.png	served no purpose but visually inform the users of what
+journal_crops/test_img34_r11_00.png	each colored dot means.
+journal_crops/test_img35_r00_00.png	DATE July 27, 2026
+journal_crops/test_img35_r01_00.png	It was a raining day at the Provincial Capitol of
+journal_crops/test_img35_r02_00.png	Laguna. Upon arriving, I opened my laptop and began
+journal_crops/test_img35_r03_00.png	work. First, I implemented an experimental camera mode
+journal_crops/test_img35_r04_00.png	"FlatScan Mode". The purpose of this mode is to simply
+journal_crops/test_img35_r05_00.png	capture the sheet image in portrait mode while
+journal_crops/test_img35_r06_00.png	the sheet was captured in landscape mode. Holding
+journal_crops/test_img35_r07_00.png	the phone upright, the sheet should appear 90 degrees
+journal_crops/test_img35_r08_00.png	CW or CCW rotated. It was an experimental feature
+journal_crops/test_img35_r09_00.png	and not much of use since the ArUco scanners are
+journal_crops/test_img35_r10_00.png	already doing the job right. I kept the mode in
+journal_crops/test_img35_r11_00.png	the app to be recycled.
+journal_crops/test_img35_r12_00.png	After that, I added Answer keys to the nav bar
+journal_crops/test_img35_r13_00.png	to the users can easily access and edit them
+journal_crops/test_img35_r14_00.png	without doing it from selecting the classes first.
+journal_crops/test_img35_r15_00.png	I also did more UI and UX changes and pushed
+journal_crops/test_img35_r16_00.png	the current version of the code to Github.
+journal_crops/test_img36_r00_00.png	DATE July 30, 2026
+journal_crops/test_img36_r01_00.png	found here are read only, meaning teachers cannot
+journal_crops/test_img36_r02_00.png	edit scan results from here to avoid unfair edits
+journal_crops/test_img36_r03_00.png	or the scans being edited by accident.
+journal_crops/test_img36_r04_00.png	I also fixed the filtration system and grouping by
+journal_crops/test_img36_r05_00.png	to cover every category an element can be grouped
+journal_crops/test_img36_r06_00.png	by.
+journal_crops/test_img36_r07_00.png	By afternoon, I attended two subjects at school.
+journal_crops/test_img37_r00_00.png	DATE July 31, 2026
+journal_crops/test_img37_r01_00.png	I began the day with an idea. Since the system
+journal_crops/test_img37_r02_00.png	would change IP addresses from time to time, what
+journal_crops/test_img37_r03_00.png	if make the app handle that as well? I implemented
+journal_crops/test_img37_r04_00.png	a ping check that would run upon opening the app.
+journal_crops/test_img37_r05_00.png	A dialog section would then appear to tell the user
+journal_crops/test_img37_r06_00.png	to rescan their QR code to update and replace
+journal_crops/test_img37_r07_00.png	the last known IP address with a new one encoded
+journal_crops/test_img37_r08_00.png	in the app's back end. This is to ensure the user
+journal_crops/test_img37_r09_00.png	is informed of an error and provide them with a
+journal_crops/test_img37_r10_00.png	way to fix it.
+journal_crops/test_img37_r11_00.png	Then I added an FAQ section
+journal_crops/test_img37_r12_00.png	in the app's header to provide the first time users
+journal_crops/test_img37_r13_00.png	vital information about the app, what it does, and
+journal_crops/test_img37_r14_00.png	basic troubleshooting tricks.
+journal_crops/test_img37_r15_00.png	I also checked the app's backend for bugs and
+journal_crops/test_img37_r15_01.png	unintended behaviors and spoke with Sir Rein about
+journal_crops/test_img37_r16_00.png	backing up assessment, scan, and answer key
+journal_crops/test_img37_r17_00.png	data.
+journal_crops/test_img38_r00_00.png	DATE August 3, 2026
+journal_crops/test_img38_r01_00.png	(Sir Za) Sir Erik visited MISO today. I reported to
+journal_crops/test_img38_r01_01.png	him on the development status of the app. I showed
+journal_crops/test_img38_r02_00.png	new look of the app. He and I discussed about a
+journal_crops/test_img38_r02_01.png	him the UI changes made to the app and the
+journal_crops/test_img38_r03_00.png	dedicated student profile in the app as well as
+journal_crops/test_img38_r04_00.png	the three camera modes I implemented. After this
+journal_crops/test_img38_r05_00.png	we went to Sir Rein to plan for the next step.
+journal_crops/test_img38_r06_00.png	In the afternoon, I implemented the Backup system
+journal_crops/test_img38_r07_00.png	feature to ensure user data gets retrieved when the
+journal_crops/test_img38_r08_00.png	app has been uninstalled.
+journal_crops/test_img38_r09_00.png	Sir Rein, after I updated him with the app's
+journal_crops/test_img38_r10_00.png	backend, tasked me to create a user manual for
+journal_crops/test_img38_r11_00.png	the app. I then began creating the first draft
+journal_crops/test_img38_r12_00.png	for the user manual
+journal_crops/test_img39_r00_00.png	DATE August 4, 2026
+journal_crops/test_img39_r01_00.png	After arriving at my spot, I immediately opened my laptop
+journal_crops/test_img39_r02_00.png	to start working on the app's user manual, as per
+journal_crops/test_img39_r03_00.png	Sir Rein's instruction. the user manual will detail the
+journal_crops/test_img39_r04_00.png	app's activities and operations so teachers or other
+journal_crops/test_img39_r05_00.png	users can use the app with ease,
+journal_crops/test_img39_r06_00.png	In the afternoon, I continued creating the user manual
+journal_crops/test_img39_r07_00.png	for the app. I also fixed an edit button appearing
+journal_crops/test_img39_r08_00.png	in the scans since it's breaking the no edit
+journal_crops/test_img39_r09_00.png	rule of the Scans tab. Also fixed the saving scheme
+journal_crops/test_img39_r10_00.png	not informing the users if the save was a success
+journal_crops/test_img39_r11_00.png	or not.
+journal_crops/test_img39_r12_00.png	flashlight of the app, off by default as per Sir
+journal_crops/test_img39_r12_01.png	To end the day, one quick adjustment, I made the
+journal_crops/test_img39_r13_00.png	Erik's instructions
+journal_crops/test_img4_r00_00.png	DATE September 17, 2026
+journal_crops/test_img4_r01_00.png	Sir Erik and I had a meeting where we discussed
+journal_crops/test_img4_r02_00.png	about different aspects of the app, especially the
+journal_crops/test_img4_r03_00.png	implementation of the ECDC sync. We also discussed
+journal_crops/test_img4_r04_00.png	about adding relevant logos and seal to the app
+journal_crops/test_img4_r05_00.png	for identity purposes. I suggested adding more
+journal_crops/test_img4_r06_00.png	logos alongside the STARS logo in the splash screen.
+journal_crops/test_img4_r07_00.png	We also discussed about user account security and
+journal_crops/test_img4_r08_00.png	user hierarchy. We briefly talked about SF-1
+journal_crops/test_img4_r09_00.png	file uploader for uploading students and changing
+journal_crops/test_img4_r10_00.png	Answer key border color. We then agreed to not
+journal_crops/test_img4_r11_00.png	allow the users to attach a "quiz" key to an
+journal_crops/test_img4_r12_00.png	assessment and "assessment" key to a quiz.
+journal_crops/test_img4_r13_00.png	Some time during the meeting, Sir Rein gave us
+journal_crops/test_img4_r14_00.png	the API for synching ECDC data where
+journal_crops/test_img4_r15_00.png	I told Sir Erik how it will be used to link up
+journal_crops/test_img4_r16_00.png	the app and the system. Then I planned the
+journal_crops/test_img4_r17_00.png	sync and its implementation.
+journal_crops/test_img40_r00_00.png	DATE August 5, 2026
+journal_crops/test_img40_r01_00.png	will and indicate.
+journal_crops/test_img40_r02_00.png	In the afternoon, I continued annotating the screenshots
+journal_crops/test_img40_r03_00.png	as well as find typos and errors in the manual. I ended
+journal_crops/test_img40_r04_00.png	the day with making sure the manual would cover
+journal_crops/test_img40_r05_00.png	the app's core functionalities.
+journal_crops/test_img5_r00_00.png	DATE September 16, 2026
+journal_crops/test_img5_r01_00.png	when I arrived at the station, I immediately worked
+journal_crops/test_img5_r02_00.png	on fixing a bug Sir Erik reported yesterday. The
+journal_crops/test_img5_r03_00.png	bug was a breadcrumb label that was wrong for the
+journal_crops/test_img5_r04_00.png	current user location in the assessments tab. After
+journal_crops/test_img5_r05_00.png	inspecting the code, I was able to fix the bug
+journal_crops/test_img5_r06_00.png	without re-introducing more bugs. After this, I moved
+journal_crops/test_img5_r07_00.png	on to moving the kid friendly stickers from
+journal_crops/test_img5_r08_00.png	ECDC to the main screen that actually has ECDC
+journal_crops/test_img5_r09_00.png	data and UI.
+journal_crops/test_img6_r00_00.png	DATE September 15, 2026
+journal_crops/test_img6_r01_00.png	I arrived at MISO and went into a meeting with Sir
+journal_crops/test_img6_r02_00.png	Erik and Sir Rein about a bug affecting scans.
+journal_crops/test_img6_r03_00.png	we talked about how to fix it and proposed solutions
+journal_crops/test_img6_r04_00.png	about the general layout of the new Early
+journal_crops/test_img6_r05_00.png	Childhood Development Checklist (ECDC). I sketched
+journal_crops/test_img6_r06_00.png	the UI and explained the flow to Sir Erik. After
+journal_crops/test_img6_r07_00.png	we agreed on a design, I immediately started working
+journal_crops/test_img6_r08_00.png	on the leaking scans data. I also worked
+journal_crops/test_img6_r09_00.png	on the named of the backup data to reflect
+journal_crops/test_img6_r10_00.png	the name of the teacher in the file name.
+journal_crops/test_img6_r11_00.png	I also fixed quizzes and answer key data, particu-
+journal_crops/test_img6_r12_00.png	larly answer keys leaking into other users. This
+journal_crops/test_img6_r13_00.png	afternoon was fruitful as I was able to make
+journal_crops/test_img6_r14_00.png	the app remember the data of teachers the
+journal_crops/test_img6_r15_00.png	next time they login after.
+journal_crops/test_img6_r16_00.png	After this, I improved some UI elements and
+journal_crops/test_img6_r17_00.png	did some tidying up with the code.
+journal_crops/test_img7_r00_00.png	DATE September 14, 2026
+journal_crops/test_img7_r01_00.png	a bug hands-on and identified it as a user
+journal_crops/test_img7_r02_00.png	error rather than system/app error. It was because
+journal_crops/test_img7_r03_00.png	two assessments with the same name got confused
+journal_crops/test_img7_r04_00.png	together, causing the bad scan bug. After the
+journal_crops/test_img7_r05_00.png	confirmation, we discussed, and later with Sir Rein,
+journal_crops/test_img7_r06_00.png	about the implementation of a new tab called
+journal_crops/test_img7_r07_00.png	"ECD" for kindergarten. I then merged my
+journal_crops/test_img7_r08_00.png	working github repository with the system's repo
+journal_crops/test_img7_r09_00.png	to get the latest update from Sir Rein.
+journal_crops/test_img7_r10_00.png	While waiting for Sir Rein to write the API for the
+journal_crops/test_img7_r11_00.png	ECD Sync, I began to implement a new tab called "ECD",
+journal_crops/test_img7_r12_00.png	being an addition to the row of existing tabs in
+journal_crops/test_img7_r13_00.png	the bottom navigation bar. The beginning of the
+journal_crops/test_img7_r14_00.png	implementation was making sure the tab remembers
+journal_crops/test_img7_r15_00.png	where it was left off by the user. Then I
+journal_crops/test_img7_r16_00.png	added the Sync ECCD button.
+journal_crops/test_img8_r00_00.png	DATE September 11, 2026
+journal_crops/test_img8_r01_00.png	Upon arriving at MISO, I opened android studio to prepare
+journal_crops/test_img8_r02_00.png	the code and had imports loaded. I set up the
+journal_crops/test_img8_r03_00.png	STARS system for testing and began working on the
+journal_crops/test_img8_r04_00.png	code. My task was to fix the leaking assessments
+journal_crops/test_img8_r05_00.png	data upon user switch. When a user signs in and
+journal_crops/test_img8_r06_00.png	syncs assessments and create ones in the app, the
+journal_crops/test_img8_r07_00.png	other unique user will also see the previous
+journal_crops/test_img8_r08_00.png	signed in user's assessment data. The commit
+journal_crops/test_img8_r09_00.png	number 5G84658 fixed the bug and the update
+journal_crops/test_img8_r10_00.png	was pushed to github for version control.
+journal_crops/test_img9_r00_00.png	DATE September 7, 2026
+journal_crops/test_img9_r01_00.png	I helped Maam Julie along with Sir Pleto set up
+journal_crops/test_img9_r02_00.png	our place during the flag ceremony and assisted
+journal_crops/test_img9_r03_00.png	the team on setting up laptops for the pageant
+journal_crops/test_img9_r04_00.png	Governor Sol Aragones visited amid the heavy
+journal_crops/test_img9_r05_00.png	rain fall. After the cheerleading contest was
+journal_crops/test_img9_r06_00.png	done, I helped the team pack up our equipment
+journal_crops/test_img9_r07_00.png	and bring them back to MISO.

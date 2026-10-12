@@ -1,0 +1,139 @@
+journal_crops/test_img51_r00_00.png	DATE September 25, 2026
+journal_crops/test_img51_r01_00.png	Sir. Erik and I discussed about replacing the
+journal_crops/test_img51_r02_00.png	app's splash screen's logo with a custom one
+journal_crops/test_img51_r03_00.png	with the seals of Laguna and MISO. We asked
+journal_crops/test_img51_r04_00.png	sir. Randy to draft the design of the
+journal_crops/test_img51_r05_00.png	logo. After that, we went to Sir. Rein.
+journal_crops/test_img51_r06_00.png	I showed sir. Rein how the app formats ELD
+journal_crops/test_img51_r07_00.png	data as json and how the system would
+journal_crops/test_img51_r08_00.png	recieve the data.
+journal_crops/test_img51_r09_00.png	In the app, I placed the help button in
+journal_crops/test_img51_r10_00.png	the User tab and replaced with a button
+journal_crops/test_img51_r11_00.png	that will route the user to the User tab immidiatel
+journal_crops/test_img51_r12_00.png	for user experience.
+journal_crops/test_img52_r00_00.png	DATE July 21, 2026
+journal_crops/test_img52_r01_00.png	I implemented the "Tilt Agnostic Mode" to fix the
+journal_crops/test_img52_r02_00.png	template mismatch and to stop the app from guessing
+journal_crops/test_img52_r03_00.png	which way to orient the app. Along with the
+journal_crops/test_img52_r04_00.png	implementation, I suggested Sir Rein to replace the
+journal_crops/test_img52_r05_00.png	sheet's physical appearance. that we should replace
+journal_crops/test_img52_r06_00.png	the black anchor square markers with ArUco
+journal_crops/test_img52_r07_00.png	markers. ArUco markers (Augmented Reality University
+journal_crops/test_img52_r08_00.png	of Cordoba) markers are like qr codes but we embed
+journal_crops/test_img52_r09_00.png	a value in it. For the sheets, the four anchors
+journal_crops/test_img52_r10_00.png	will be encoded with the values 0 for (TL), 1 for
+journal_crops/test_img52_r11_00.png	(TR), 2 for (BL), and 3 for (BR). With these,
+journal_crops/test_img52_r12_00.png	reading them will tell the app explicitly where
+journal_crops/test_img52_r13_00.png	to orient regardless of its placement on the
+journal_crops/test_img52_r14_00.png	surface or whether the phone was oriented
+journal_crops/test_img52_r15_00.png	a certain way. Hence I named the mode tilt
+journal_crops/test_img52_r16_00.png	agnostic.
+journal_crops/test_img53_r00_00.png	DATE July 20, 2026
+journal_crops/test_img53_r01_00.png	It came to my mind why the persistent rotation
+journal_crops/test_img53_r02_00.png	anomaly was still present in the current build. I used
+journal_crops/test_img53_r03_00.png	logs to surgically investigated every detail of how
+journal_crops/test_img53_r04_00.png	the app actually processes the image after being
+journal_crops/test_img53_r05_00.png	captured. And I confirmed it tentatively it was
+journal_crops/test_img53_r06_00.png	template hijacking. The app would select the
+journal_crops/test_img53_r07_00.png	wrong template causing the disorientation and
+journal_crops/test_img53_r08_00.png	therefore bad scans. Most of the day was
+journal_crops/test_img53_r09_00.png	spent brainstorming ideas on how to address
+journal_crops/test_img53_r10_00.png	and fix the anomaly. While keeping the logs
+journal_crops/test_img53_r11_00.png	descriptive to help me identify a solution to
+journal_crops/test_img53_r12_00.png	finally fix the orientation mismatch and point
+journal_crops/test_img53_r13_00.png	the app to the right direction.
+journal_crops/test_img54_r00_00.png	DATE July 17, 2026
+journal_crops/test_img54_r01_00.png	I installed VSCode in Sir Erik's laptop so that
+journal_crops/test_img54_r02_00.png	he himself could test the app at the production
+journal_crops/test_img54_r03_00.png	or developer level. We cloned the app's system
+journal_crops/test_img54_r04_00.png	from github and made it running on his
+journal_crops/test_img54_r05_00.png	machine. It was without hiccups. We encountered
+journal_crops/test_img54_r06_00.png	dependency problems, slow internet, and slow
+journal_crops/test_img54_r07_00.png	github clones. But we were able to get the system
+journal_crops/test_img54_r08_00.png	running locally. After that, I turned my attention
+journal_crops/test_img54_r09_00.png	to the fail safe mechanism I implemented
+journal_crops/test_img54_r10_00.png	yesterday to polish it and make it visually
+journal_crops/test_img54_r11_00.png	coherent.
+journal_crops/test_img55_r00_00.png	DATE July 14, 2026
+journal_crops/test_img55_r01_00.png	The planned 2PH format to dynamically be selected
+journal_crops/test_img55_r02_00.png	was implemented. The idea was simple, tell bubble
+journal_crops/test_img55_r03_00.png	scanner to only map against a template up to
+journal_crops/test_img55_r04_00.png	n number of items. That is we decided to only
+journal_crops/test_img55_r05_00.png	use 2PH40 and 2PH60 formats to account for
+journal_crops/test_img55_r06_00.png	items in increments of 5. If a user selects
+journal_crops/test_img55_r07_00.png	the 2PH40 but the test is only 25 items long, we
+journal_crops/test_img55_r08_00.png	decided to tell the app to only use 25 items
+journal_crops/test_img55_r09_00.png	of the said template format by calculating the
+journal_crops/test_img55_r10_00.png	x and y coordinate of the template's JSON
+journal_crops/test_img55_r11_00.png	file. Then we discussed with Sir Erik about this
+journal_crops/test_img55_r12_00.png	implementation.
+journal_crops/test_img55_r13_00.png	Relative to this, I fixed the camera layout for
+journal_crops/test_img55_r14_00.png	2PH60 as the sheet was physically bigger that
+journal_crops/test_img55_r15_00.png	2PH40. I had to adjust the guide anchor
+journal_crops/test_img55_r16_00.png	detectors to match the geometry of 2PH60.
+journal_crops/test_img55_r17_00.png	Then I pushed to github the changes.
+journal_crops/test_img56_r00_00.png	DATE July 13, 2026
+journal_crops/test_img56_r01_00.png	After researching the orientation anomaly, I decided
+journal_crops/test_img56_r02_00.png	to lock the captured image orientation to landscape.
+journal_crops/test_img56_r03_00.png	This way I would have one definitive orientation to look
+journal_crops/test_img56_r04_00.png	at and one way to instruct the app to rotate. I
+journal_crops/test_img56_r05_00.png	made anchor labels to help the app further and
+journal_crops/test_img56_r06_00.png	to rotate accordingly. This is made possible by
+journal_crops/test_img56_r07_00.png	reading the phone's accelerometer to detect the
+journal_crops/test_img56_r08_00.png	canonical orientation. And it worked. The app
+journal_crops/test_img56_r09_00.png	saw consistent scan results this way with en-
+journal_crops/test_img56_r10_00.png	forced rotation and enforced way to scan.
+journal_crops/test_img56_r11_00.png	I proceeded to report it to Sir Rein and we
+journal_crops/test_img56_r12_00.png	discussed ways to implement dynamic 2PH format
+journal_crops/test_img56_r13_00.png	selection to cover tests that are intervals
+journal_crops/test_img56_r14_00.png	with the app's known current templates: 2PH30, 2PH40
+journal_crops/test_img56_r15_00.png	2PH50, and 2PH60.
+journal_crops/test_img57_r00_00.png	DATE September 29, 2026
+journal_crops/test_img57_r01_00.png	Sir. Erik visited MISO. I showed him a draft
+journal_crops/test_img57_r02_00.png	for the logo I made and he wanted it to be
+journal_crops/test_img57_r03_00.png	changed. I went to canva and made the
+journal_crops/test_img57_r04_00.png	logo according to his specifications and
+journal_crops/test_img57_r05_00.png	put it in the app. So far, he liked the
+journal_crops/test_img57_r06_00.png	logo. I also added a guard against ECDC
+journal_crops/test_img57_r07_00.png	syncs so that only teachers with kinder
+journal_crops/test_img57_r08_00.png	subjects can only sync ECDC. I pushed the
+journal_crops/test_img57_r09_00.png	changes to Github.
+journal_crops/test_img57_r10_00.png	Afternoon, I helped MISO Staff get supplies and
+journal_crops/test_img57_r11_00.png	get them in the building.
+journal_crops/test_img58_r00_00.png	DATE September 30, 2026
+journal_crops/test_img58_r01_00.png	After arriving at MISO, I opened my laptop and
+journal_crops/test_img58_r02_00.png	worked on the app. I began with improving the
+journal_crops/test_img58_r03_00.png	information displayed on the dialog guard when
+journal_crops/test_img58_r04_00.png	Erik visited and upon his request i added an
+journal_crops/test_img58_r05_00.png	upload for user profiles to liven up the app and
+journal_crops/test_img58_r06_00.png	offer cosmetics.
+journal_crops/test_img58_r07_00.png	Sir. Erik reported a bug where the app cannot
+journal_crops/test_img58_r08_00.png	sync ECDC. I spent the afternoon debugging until
+journal_crops/test_img58_r09_00.png	I found the cause and it didn't have anything
+journal_crops/test_img58_r10_00.png	to do with the code. On Sir Erik's machine,
+journal_crops/test_img58_r11_00.png	he accidentally used an updated copy of the
+journal_crops/test_img58_r12_00.png	STARS system. After fixing it, we were able
+journal_crops/test_img58_r13_00.png	to Sync ECDC again cleanly.
+journal_crops/test_img59_r00_00.png	DATE October 1, 2026
+journal_crops/test_img59_r01_00.png	Upon arriving at MISO, after updating Sir. Erik,
+journal_crops/test_img59_r02_00.png	I pulled the updates from miso-rein repository to get
+journal_crops/test_img59_r03_00.png	the working ECDC Upload API. I then wrote in
+journal_crops/test_img59_r04_00.png	the code to communicate data into the STARS
+journal_crops/test_img59_r05_00.png	system. After confirmation that the transportation
+journal_crops/test_img59_r06_00.png	of the data is successful, I wrote a peek to
+journal_crops/test_img59_r07_00.png	summary button that shows tallied results per
+journal_crops/test_img59_r08_00.png	student card. I pushed the changes to my
+journal_crops/test_img59_r09_00.png	work repository and sent Sir Erik an updated
+journal_crops/test_img59_r10_00.png	version of the app. He, Sir. Erik, Sir. Derel, and
+journal_crops/test_img59_r11_00.png	Sir. Rein went to lunch together. After that, I headed
+journal_crops/test_img59_r12_00.png	school.
+journal_crops/test_img60_r00_00.png	DATE October 2, 2026
+journal_crops/test_img60_r01_00.png	I began the day by refactoring and cleaning
+journal_crops/test_img60_r02_00.png	the app's code as well as inspecting for bugs.
+journal_crops/test_img60_r03_00.png	I fixed a bug where saving a quiz will get through
+journal_crops/test_img60_r04_00.png	even though the same student already exists,
+journal_crops/test_img60_r05_00.png	duplicating instead of overriding. I also fixed
+journal_crops/test_img60_r06_00.png	another bug where the breadcrumbing trail is
+journal_crops/test_img60_r07_00.png	incorrect for Quizzes. After this, I put the
+journal_crops/test_img60_r08_00.png	student's name in the quizzes instead of LRN
+journal_crops/test_img60_r09_00.png	number.

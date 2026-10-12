@@ -1,0 +1,126 @@
+journal_crops/test_img41_r00_00.png	DATE August 11, 2026
+journal_crops/test_img41_r01_00.png	I arrived at MISO. After greeting Ma'am Dani good morning,
+journal_crops/test_img41_r02_00.png	I set up my laptop and began planning to implement
+journal_crops/test_img41_r03_00.png	a pro-mode among the selectable camera modes in
+journal_crops/test_img41_r04_00.png	the choose camera dialog. this mode will allow user
+journal_crops/test_img41_r05_00.png	scanning hard to fail. I moved the feature to the
+journal_crops/test_img41_r06_00.png	Users tab for ease of access, removing it from
+journal_crops/test_img41_r07_00.png	the camera mode options. Then I focused on
+journal_crops/test_img41_r08_00.png	polishing its UI/UX. I also polished UI in some
+journal_crops/test_img41_r09_00.png	parts of the app to make the feel unified under
+journal_crops/test_img41_r10_00.png	one theme.
+journal_crops/test_img41_r11_00.png	In the afternoon, I revisited the app's manual and
+journal_crops/test_img41_r12_00.png	updated it since new features and changes were
+journal_crops/test_img41_r13_00.png	introduced.
+journal_crops/test_img42_r00_00.png	MS Word to continue making STARS's user manual. I worked
+journal_crops/test_img42_r01_00.png	on the User tab section of the app. Sir Erik Zaide
+journal_crops/test_img42_r02_00.png	visited us. I was brought to the dev room to observe Sir
+journal_crops/test_img42_r03_00.png	Rein debug the system. While doing so, I introduced
+journal_crops/test_img42_r04_00.png	Sir Erik to the new Calibrate feature I implemented
+journal_crops/test_img42_r05_00.png	yesterday and explain to him to it was used and
+journal_crops/test_img42_r06_00.png	how it would benefit the teachers. I also pointed out
+journal_crops/test_img42_r07_00.png	the difference of any other sheets to the master
+journal_crops/test_img42_r08_00.png	sheet and suggested the master sheet be used globally
+journal_crops/test_img42_r09_00.png	to prevent the app from looking at different sheet
+journal_crops/test_img42_r10_00.png	templates and risk being wrong. When I left the
+journal_crops/test_img42_r11_00.png	room I continued to code some improvements to
+journal_crops/test_img42_r12_00.png	the app and then pushed it to github.
+journal_crops/test_img42_r13_00.png	In the afternoon, I focused on reviewing and writing
+journal_crops/test_img42_r14_00.png	the user manual.
+journal_crops/test_img43_r00_00.png	DATE August 13, 2026
+journal_crops/test_img43_r01_00.png	Upon arriving, I set up my laptop and opened
+journal_crops/test_img43_r02_00.png	Android Studio. I looked up the backup and restore
+journal_crops/test_img43_r03_00.png	feature of the app again as well as tested some
+journal_crops/test_img43_r04_00.png	sheets to determine possible fixes or improvements.
+journal_crops/test_img43_r05_00.png	I decided to add another layer to the backup and
+journal_crops/test_img43_r06_00.png	restore feature to allow normal operations of the app
+journal_crops/test_img43_r07_00.png	using backup data.
+journal_crops/test_img43_r08_00.png	I then fixed the backup and restore feature
+journal_crops/test_img43_r09_00.png	and pushed to github the changes.
+journal_crops/test_img44_r00_00.png	DATE August 24, 2026
+journal_crops/test_img44_r01_00.png	I attended the Capitol's weekly flag ceremony.
+journal_crops/test_img44_r02_00.png	Upon arriving back at my station, I checked
+journal_crops/test_img44_r03_00.png	the app's Github repository for checking version
+journal_crops/test_img44_r04_00.png	control. Sir Erik visited us. We discussed about the
+journal_crops/test_img44_r05_00.png	app's 2PH60 scanning. I showed how to scan 2PH60.
+journal_crops/test_img44_r06_00.png	Also, we discussed with Sir Rein about blank answers
+journal_crops/test_img44_r07_00.png	and arrived at the conclusion that we should leave
+journal_crops/test_img44_r08_00.png	as is. I fixed a problem where if two teachers
+journal_crops/test_img44_r09_00.png	where to use the same phone, the local database
+journal_crops/test_img44_r10_00.png	was not scoped per teacher. Now data is scoped
+journal_crops/test_img44_r11_00.png	to teachers.
+journal_crops/test_img44_r12_00.png	In the afternoon, I checked the system and created
+journal_crops/test_img44_r13_00.png	accounts to test for multiple users. I was then
+journal_crops/test_img44_r14_00.png	given by Sir Rein the api for synching Assessments
+journal_crops/test_img44_r15_00.png	and Answer keys at the same time. I then began
+journal_crops/test_img44_r16_00.png	to plan the next steps for implementing the sync.
+journal_crops/test_img45_r00_00.png	DATE August 25, 2026
+journal_crops/test_img45_r01_00.png	When I arrived I immediately opened my laptop and
+journal_crops/test_img45_r02_00.png	began working on the app. First I cleaned database
+journal_crops/test_img45_r02_01.png	operations before looking at ways to implement
+journal_crops/test_img45_r03_00.png	sync assessments and answer keys. I successfully
+journal_crops/test_img45_r04_00.png	synced both and began polishing the feature and
+journal_crops/test_img45_r05_00.png	failure proofing it.
+journal_crops/test_img46_r00_00.png	DATE August 26, 2026
+journal_crops/test_img46_r01_00.png	I went to MISO in the afternoon. After setting up my
+journal_crops/test_img46_r02_00.png	laptop, I immediately worked on integrating the student's
+journal_crops/test_img46_r03_00.png	name into the scans card. This was to make student
+journal_crops/test_img46_r04_00.png	scans identification easier.
+journal_crops/test_img46_r05_00.png	Then I included synced assessment / answer key data
+journal_crops/test_img46_r06_00.png	to the backup. While taking scope into consideration
+journal_crops/test_img46_r07_00.png	The backup should only restore data to the current
+journal_crops/test_img46_r08_00.png	signed in user and should not be able to be
+journal_crops/test_img46_r09_00.png	used by other users.
+journal_crops/test_img47_r00_00.png	DATE September 3, 2026
+journal_crops/test_img47_r01_00.png	I sat at my table and opened my laptop to begin work.
+journal_crops/test_img47_r01_01.png	I gathered the last remaining screenshots for the
+journal_crops/test_img47_r02_00.png	them, I reviewed the first half of the manual,
+journal_crops/test_img47_r03_00.png	correcting some sections and making sure they
+journal_crops/test_img47_r04_00.png	are accurate and true. I then opened the app's
+journal_crops/test_img47_r05_00.png	code and fixed duplication of scans when the
+journal_crops/test_img47_r06_00.png	user edits them to have the same LRN. Now, the
+journal_crops/test_img47_r07_00.png	app notifies the users when the edit was the
+journal_crops/test_img47_r08_00.png	same as existing scan. I also did small
+journal_crops/test_img47_r09_00.png	UI changes like removing excess text under the
+journal_crops/test_img47_r10_00.png	"Start Scanning" Card.
+journal_crops/test_img48_r00_00.png	DATE September 4, 2026
+journal_crops/test_img48_r01_00.png	Upon arriving at my station, I immediately worked
+journal_crops/test_img48_r02_00.png	on the app to replace the label of one of the
+journal_crops/test_img48_r03_00.png	assessment type (ECD) to Term as per Sir Erik's
+journal_crops/test_img48_r04_00.png	request. Sir Erik visited MISO and we discussed about
+journal_crops/test_img48_r05_00.png	the implementation of a new tab called "Quizess".
+journal_crops/test_img48_r06_00.png	After asking some questions about the feature, we
+journal_crops/test_img48_r07_00.png	decided to write the feature into a separate branch
+journal_crops/test_img48_r08_00.png	so a fallback version would still be present.
+journal_crops/test_img48_r09_00.png	Sir Rein told me to use another branch for version
+journal_crops/test_img48_r10_00.png	control. Later, I began work on the Quizess feature
+journal_crops/test_img48_r11_00.png	by first making the navigation bar scrollable
+journal_crops/test_img48_r12_00.png	horizontally to make room for the new Quizzes
+journal_crops/test_img48_r13_00.png	icon.
+journal_crops/test_img49_r00_00.png	DATE September 23, 2026
+journal_crops/test_img49_r01_00.png	After arriving at MISO, I headed to the computer
+journal_crops/test_img49_r02_00.png	training lab to set up. I didn't bring my laptop
+journal_crops/test_img49_r03_00.png	the app's current State. While working on the
+journal_crops/test_img49_r04_00.png	Manual, I was also checking the app's code on
+journal_crops/test_img49_r05_00.png	Github since the pcs in the laboratory didn't
+journal_crops/test_img49_r06_00.png	have Android studio to run the app with.
+journal_crops/test_img49_r07_00.png	By afternoon, I helped Sir. Randy set up the TV
+journal_crops/test_img49_r08_00.png	monitor and Speaker. Then I became an observer to
+journal_crops/test_img49_r09_00.png	Sir. Randy's "Laguna PWD Inclusive Development
+journal_crops/test_img49_r10_00.png	Plan" presentation.
+journal_crops/test_img50_r00_00.png	DATE September 24, 2026
+journal_crops/test_img50_r01_00.png	At MISO, Sir. Erik visited. We discussed and reviewed
+journal_crops/test_img50_r02_00.png	the ECDC feature. We asked Sir. Randy if he could
+journal_crops/test_img50_r03_00.png	make us a splash screen design and after he
+journal_crops/test_img50_r04_00.png	agreed, I set up my laptop in the laboratory
+journal_crops/test_img50_r05_00.png	and began coding. I first moved the button
+journal_crops/test_img50_r06_00.png	from the ECDC card to the students card
+journal_crops/test_img50_r07_00.png	for individual uploading of ECDC data
+journal_crops/test_img50_r08_00.png	to the system. Then I added a guard rail
+journal_crops/test_img50_r09_00.png	to prevent users from uploading without filling
+journal_crops/test_img50_r10_00.png	all domains at once. Then I fixed the labeling
+journal_crops/test_img50_r11_00.png	issue in the competency cards where the label
+journal_crops/test_img50_r12_00.png	"Not Present" was clipping out of the card.
+journal_crops/test_img50_r13_00.png	In the afternoon, I reviewed the STARS Manual
+journal_crops/test_img50_r14_00.png	to look for inconsistencies and room
+journal_crops/test_img50_r15_00.png	for improvements.
