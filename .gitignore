@@ -1,4 +1,5 @@
 paddle-env/
 __pycache__/
 *.pyc
-debug_output/journal_photos/
+debug_output/
+journal_photos/
