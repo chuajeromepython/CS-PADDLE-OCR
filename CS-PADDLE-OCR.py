@@ -103,7 +103,7 @@ def main(image_path, rec_model_dir=None, rec_thresh=0.0, edge_margin=0.0):
         # and pick the detector explicitly (same one the stock run uses).
         ocr_kwargs.pop("lang", None)
         ocr_kwargs["text_recognition_model_dir"] = rec_model_dir
-        ocr_kwargs["text_recognition_model_name"] = "en_PP-OCRv4_mobile_rec"
+        ocr_kwargs["text_recognition_model_name"] = "PP-OCRv6_medium_rec"
         det_name = stock_detector_name("en")
         if det_name:
             ocr_kwargs["text_detection_model_name"] = det_name
