@@ -1,0 +1,19 @@
+1. The transcription file contains the same number of words in a line as appears in a handwritten document.
+2. No spelling mistake was corrected.
+3. If there is confusion in a handwritten word spelling, we follow the word's correct spelling. 
+4. Capital characters are written as capital same for lower case characters.
+5. We put a single space before and after the comma, colon, and full stop with some exceptions. 
+	5.1. If the dot appears between abbreviated letters in a word, we skip putting the space. For example, B.ed, e.g., i.e.
+	5.2. If punctuation appears together without a space in a handwritten document, we skip putting the space in a transcription. For example, :- , 	.....
+6. If a hyphen appears at the end of the word, we put a space before and after the hyphen. 
+	6.1 But in most cases, a hyphen considers a part of the word, mainly person names in Arabic or Urdu. For example,  Quaid-e-Azam.
+	6.2  In other cases, a hyphen at the end of the line indicates that a  word half spelling will be in the following line. In both mentioned cases, we 	skip putting a space. 
+	6.3 If the hyphen shows the range of anything, for example, (1988-2000) in that case, we split the text as ( 1988 - 2000 ).
+7. If there is a small circle around numbers, we mark them as (1).
+8. We choose to put a # for every strikethrough word regardless of stroke's shape or length. 
+9. If the text appears above or below the strikethrough text, we put a # before the rewritten text. 
+10. Apostrophe: In some cases, apostrophe shows the short version of the world. For example, I've, in that case, we do not separate apostrophe from a word with a space. In some cases, like students' papers or a student's paper, we skip putting a space before the apostrophe. 
+11.If a text occurs within brackets, we separate the brackets from the text by space. However, If the text within brackets indicates listing, we choose not to put space. For example (1) , 1), 2), (2)
+12: If writers overwrite one character with another, in that case we opt the correct splling.
+
+  

@@ -1,0 +1,20 @@
+Ordinary Differential Equation :- 
+A differential 
+equation involving the ordinary 
+derivative of one or more 
+dependent variable with respect 
+to a single independent variable . 
+Partial Differential Equation :- 
+A 
+differential equation involving 
+the ordinary derivative of
+one # or more dependent 
+variable with respect to 
+more #than one independent 
+variables . 
+Mathematics is considered 
+to be the language of 
+nature but in our 
+university it is taught 
+as a normal subject containg 
+not even practical example related to the nature .

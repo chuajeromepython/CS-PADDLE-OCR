@@ -1,0 +1,17 @@
+Microdissection:-
+" The use of microscope 
+for dissection is called #
+microdissection . "
+Types
+1) Chromosome microdissection :-
+In this technique 
+use a fine glass needle under
+microscope to remove a portion
+from a complete chromosome . "
+2) Laser microdissection :-
+Use of a laser under 
+microscope to dissect selected cell . "
+3) Laser capture microdissection :-
+" use of a laser
+under microscope to cause selected
+cell to adhere to a film ."

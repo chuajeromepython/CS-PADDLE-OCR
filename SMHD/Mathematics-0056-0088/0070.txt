@@ -1,0 +1,19 @@
+Function :-
+In mathematics , a function
+is binary relation between two sets
+that associate each elements of #the
+# # first sets that relates to
+the seconde element exactly .
+Differentiation :-
+Change in # " y " component
+with respect to " x " component is
+called differentiation .
+=> In mathematics , the derivative of a 
+function of a real veriable measures
+the sensitivity to change of the function
+value with respect to change in
+its # arguments .
+=> A function is also define as ;
+Def: # A function is a process or
+a relation # that associate #
+each element of " x " of  set " X "

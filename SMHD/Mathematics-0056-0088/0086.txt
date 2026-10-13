@@ -1,0 +1,17 @@
+Since elementary vector methods are freely #
+employed throughout this book , some space may
+be # given at the outset to # an expla-
+nation of the notation used and formulae
+required . Vectors are denoted by symbols # .
+The position vectors r , of point P relative 
+to the origin O , is the vector whose
+# magnitude is the length .
+# The law of vector addition
+is a matter of common knowledge .
+If three points O , P , Q are such 
+the vectors OP and PQ are 
+equal relatively to a & b ,
+the vector OQ is called .
+Sum some of a and b ,
+The negative of vector b is
+vector with same modulus .

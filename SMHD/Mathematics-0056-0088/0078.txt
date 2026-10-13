@@ -1,0 +1,18 @@
+=> The Natural Equation : 
+The natural equations gives an intrinic
+description of the curves # which anable
+us to identify the curves .
+Here we will deal # with planer
+curves only , Here the procedure
+adopted can be extented easily .
+But # Here the calculation
+become complicated .
+=> Derivative :
+The rate of change of function
+with respect # to independent
+variable .
+=> Ordinary Differential equation :
+The ordinary defferential equation
+involve # one or more dependent
+variable w.r.t only one independent
+variable .

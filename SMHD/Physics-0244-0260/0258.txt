@@ -1,0 +1,17 @@
+Scalor :- The Quantity which can
+be specified by thier Magnitude
+is called scalor quanitity .
+Example :- mass , time , lenght etc .
+Vector quanitity :-
+# when we
+multiply two vectors products
+# AxB at it give
+as vector product than this
+is called vector quantity .
+by such way we can 
+also find the vector
+product like Momentum . and
+many other vector quantity .
+it is also called
+# # cross product or
+vector product .

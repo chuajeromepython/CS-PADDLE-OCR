@@ -1,0 +1,18 @@
+A space is define to be # curved 
+in three dimensional space . In 
+general it will not be # possible 
+to find # a plane containing the 
+curve . By three dimensional space we 
+mean that every point will be described 
+by # numbers . ( in general ) , the numbers 
+are called coordinate . We most often 
+use cartesian cordinates so that the
+point is given by three distance . 
+The set of three vectors i , j , k 
+is called basis ( or a frame ) . A 
+particular convenient basis is provided 
+by the moving trihedron . For this 
+the first basis vector is the unit
+tangent # along the curve . 
+the next the unit normal and the 
+unit binormal .

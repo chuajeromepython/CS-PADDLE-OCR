@@ -1,0 +1,19 @@
+=> Ordinary Differential Equation :
+A Differential equation involving
+ordinary differential of one or#
+more dependent variables
+w.r.t a single dependent
+variable .
+=> Order of Differential
+Equation :
+The order of the highest 
+derivative involve in a
+D.E is called order of
+differential equation .
+Non-linear :
+A D.E that is not
+Linear is called non-
+=> linear
+=> A commutative division
+ring is called a 
+Field .

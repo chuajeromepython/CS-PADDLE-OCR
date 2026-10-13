@@ -1,0 +1,15 @@
+Let F be a function of two
+variables , such that F has
+continuous first partial derivatives
+in a domain D . The total
+differential dF is #
+defined by the formula .
+The expression # is
+called an exact differential
+in a domain D if there exists
+a function F of two variables
+such that this expression equals
+the total differential .
+The dependant variable y and 
+its various derivatives occur
+to the 1st degree only .

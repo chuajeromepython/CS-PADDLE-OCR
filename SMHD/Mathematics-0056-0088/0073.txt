@@ -1,0 +1,19 @@
+Real valued function of several
+independent variable are defined
+The way you imagine from
+single variable case . The domain
+is #the set of orderd pairs
+of real number and the
+range of the real number
+of the kind we have worked
+with all along .
+#Difinations :- A function is a rule
+that assign each and every
+element of x have a
+unique value #output value is
+called function . The inverse
+proces of derivatives is
+called integration . The collection
+of well defined and distinct
+object . These were the 
+three definations .

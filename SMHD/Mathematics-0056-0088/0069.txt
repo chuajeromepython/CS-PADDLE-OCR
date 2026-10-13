@@ -1,0 +1,18 @@
+Function :- 
+Real value function of 
+Serval variable independent 
+real value funtion . 
+Science : 
+The knowledge which 
+we obtain from experiment 
+and observation . 
+Noun :- 
+# # Noun 
+is the name of anything . 
+# 
+Function of n independent variable 
+Suppose D is the n-Tuples 
+of variables that acess to 
+the real value function . 
+The Set D is the function 
+of the domain .  

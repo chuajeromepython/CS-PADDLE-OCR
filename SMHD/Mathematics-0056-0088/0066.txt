@@ -1,0 +1,18 @@
+In mathematics , a function is a
+binary relation between two sets
+that associated each element of
+the first set to exactly one
+element of the Second set .
+Typical examples are functions from
+integers to integers , or from
+the real numbers to # 
+real numbers .
+Functions were origanally the
+idealization of how a varing
+quantity depends on another
+quantity . For example , the
+position of a planet is
+a function of time , A 
+function is a process or a 
+relation # that associates
+each element x of a Set X .

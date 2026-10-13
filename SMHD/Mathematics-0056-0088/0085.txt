@@ -1,0 +1,18 @@
+A Space Curve is defined to be a Curve in
+3-dimensional Space . In general it will
+not be possible to find a plane containing
+the curve. By three dimensional space we
+mean that #every point will be described
+by 3 Numbers . The three numbers are
+called Coordinates . we most often # use
+cartesian Coordinates so that the point
+is given by three distances along 3
+mutually perpendicular axes .
+A space curve is defined to be
+a curve in three-dimensional space .
+In general it will not be possible
+to define a plane containing the #
+Curve . By three dimensional space we
+mean that every point will be described
+by three Numbers . The three Numbers are
+called # Coordinates .

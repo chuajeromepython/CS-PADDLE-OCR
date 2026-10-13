@@ -1,0 +1,19 @@
+For our purposes we want to define
+a # basis along the # curve i-e
+Which with the # movement of a
+point on the curves . A particularly #
+convenient basis is provided by moving
+trihedron .
+For this the first basis vector is the
+unit # normal and the unit is 
+# binormal . Thus curve is
+a # sequence of points
+determined by the value of the
+# parameter . The curve is
+said to be # continous .
+A Space # curve is defined to
+be in three dimensional space .
+In # general it will not
+be # possible to find a
+plane # containing the curve .
+So that the # point will be .

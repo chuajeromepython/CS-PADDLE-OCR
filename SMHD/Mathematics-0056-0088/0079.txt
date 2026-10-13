@@ -1,0 +1,17 @@
+Suppose D is a set of real numbers .  
+A real valued Function of several independent 
+real variables are defined such a way 
+you would imagine from single variables 
+# case is the set of pairs 
+and numbers and the ranges 
+are set of real numbers of 
+the kind we worked with all 
+along . A real valued ftn D is 
+a rule that assigned using a 
+Single real numbers to each element 
+in D set of integers . Domain 
+set of integers symbol are 
+use in mathematics . we 
+worked on this symbol . symbol 
+are used in mathematics . 
+The End .

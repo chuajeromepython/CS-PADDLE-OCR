@@ -1,0 +1,19 @@
+" Scientific  Notation "
+" Scientific Notation is an easy way of 
+writting number that are too big # or 
+too small to be written in decimal 
+form . " 
+In Scientific notation a big number 
+as # # the product of the 
+number greater than one & less 
+than ( 10 ) " ( called the mantissa ) " # & 
+a power or exponent of 07 10 =
+number = mantissa  × 10 exponent  . 
+for example :- if someone writes that
+human body contains approximately 7,000,000,000
+atoms , it is not only time consuming & 
+difficult to write this number # this number 
+But there is also a change of error . The 
+number of # the atom in the human body 
+can thus be written compactty as 7 × 109 # 
+where 7 is the mantissa & 9 is the exponent .

@@ -1,0 +1,16 @@
+Language : Language is a tool of
+communication through which sender 
+encodes his/her messages while receiver
+decodes a specific information . 
+Now , I introduce the concept 
+of word i-e words are syntactic 
+units , means words # are the
+unit  of syntax . Furthermore, words 
+can be classified into two broad
+classes ;
+# Open class words
+# Closed class words 
+Open class words :
+( VANA ) These have no limit .
+Closed class words :
+( PICPA ) These have limit .

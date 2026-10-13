@@ -1,0 +1,15 @@
+Partial Derivatives :-
+Functions of several variables :-
+Many functions depends on more
+than one independant variables .
+Real values ftns of several
+of #several independant real
+variables one defined much the
+way you would imagine
+from the single variable
+case .
+Functions :- A rule that assign
+a unique value of indepentant
+variable ( input ) each a unique value
+of dependent ( out put ) is called
+# # function .

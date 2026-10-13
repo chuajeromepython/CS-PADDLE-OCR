@@ -1,0 +1,18 @@
+" Inhibitor "
+Atoms or group of atoms ,
+Particle # ions or molecule which 
+are # attached  to enzyme
+either at active # site # 
+# # or allostric site due
+to which  substrate molecule 
+cannot be binded to #
+active Site # and r×n are
+Stops called inhibitor .
+There are two type
+1) " Competative Inhibitor "
+Those # inhibitor whose # geometry 
+is same as that of active 
+Site and do # competation with 
+substrate # molecule to # attached 
+with active site called competative 
+inhibitor .

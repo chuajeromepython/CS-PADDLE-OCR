@@ -1,0 +1,19 @@
+Function : 
+The term " function " is 
+mostly used in mathematics . It 
+is a rule that assign two 
+value of any two sets . The 
+sets must be non-empty . Set A 
+will be our domain and set 
+B plays the role of range .
+There must not be repeatition 
+in the domain of a 
+function , and every value of 
+the domain should be mapped 
+with some element of the 
+range . Sometimes Set B is 
+called co-domain . Only those 
+elements of Co-domain will 
+be in the set of range 
+which should take part in 
+the mapping .

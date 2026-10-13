@@ -1,0 +1,17 @@
+Commutative rings :->
+A ring is
+called commutative if its multiplication
+is commutative. Commutative rings 
+resemble familiar number systems ,
+and various definitions for
+commutative rings are #
+# designed to formalize
+properties of the integers .
+Commutative rings are also
+important in algebraic geometry .
+In commutative ring theory ,
+numbers are often replaced
+by ideals , #and the definition
+of the prime ideal tries
+to capture the essence of prime
+numbers .
