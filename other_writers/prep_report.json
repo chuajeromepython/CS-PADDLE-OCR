@@ -1,0 +1,15 @@
+{
+ "pool_pages": 205,
+ "page_status": {
+  "accepted": 204,
+  "skipped: row count differs from transcription, no confident match": 1
+ },
+ "train_pages": 163,
+ "val_pages": 25,
+ "accepted_strict": 84,
+ "accepted_fuzzy": 120,
+ "lines_rejected_by_guards": 26,
+ "gap_pages_dropped": 16,
+ "train_lines": 1959,
+ "val_lines": 310
+}
