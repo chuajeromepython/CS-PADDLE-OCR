@@ -162,7 +162,7 @@ def main():
         print(f"Loading fine-tuned model from {args.rec_model_dir} ...")
         ft_kwargs = {k: v for k, v in common_kwargs.items() if k != "lang"}
         ft_kwargs["text_recognition_model_dir"] = args.rec_model_dir
-        ft_kwargs["text_recognition_model_name"] = "en_PP-OCRv4_mobile_rec"
+        ft_kwargs["text_recognition_model_name"] = "PP-OCRv6_medium_rec"
         det_name = stock_detector_name("en")
         if det_name:
             ft_kwargs["text_detection_model_name"] = det_name
