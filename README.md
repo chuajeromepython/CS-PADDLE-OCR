@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://miro.medium.com/v2/resize:fit:1100/format:webp/1*qklqV9yl7bw8tzkyhCALNw.png" alt="CS-PADDLE-OCR" height="200" width="500">
+  <img src="assets/logo.png" alt="CS-PADDLE-OCR" height="200" width="500">
 </p>
 
 <p align="center">Handwriting OCR: PaddleOCR (PP-OCRv6) with a fine-tuned recognizer for journal handwriting</p>
@@ -14,7 +14,7 @@
 
 A command-line tool that reads handwriting from a photo and writes the recognized text to a `.txt` file. Under the hood it's PaddleOCR, with two additions:
 
-1. **A fine-tuned recognition model** (`journal_v7_infer/`) trained on handwritten journal lines plus samples from other writers, so it copes with messy handwriting better than the stock model.
+1. **A fine-tuned recognition model** (`journal_v7_infer/`), fine-tuned on the [Student Messy Handwritten Dataset (SMHD)](https://doi.org/10.25439/rmt.24312715.v1), so it copes with messy student handwriting (crossed-out words, insertions, corrections) better than the stock model.
 2. **A reading-order fix** (`ocr_utils.py`) that regroups detected words into visual rows. Handwritten words on one line sit at slightly different heights, so plain top-to-bottom sorting can output "Chua / Jerome / S." instead of "Jerome S. Chua".
 
 It runs entirely on your own computer, in a terminal — no web app, no API key, no per-request cost. You give it a photo, it prints each line with a confidence score and saves the text.
@@ -195,19 +195,23 @@ To turn "it feels better" into an actual number, use `ocr_training/evaluate_ocr.
 
 ---
 
-## 9. Fine-tuning on your own handwriting (optional)
+## 9. Fine-tuning (optional)
 
-The model in `journal_v7_infer/` is `PP-OCRv6_medium_rec` fine-tuned on a mix of data. Training is done on a free GPU in Google Colab, not on your PC.
+The model in `journal_v7_infer/` is `PP-OCRv6_medium_rec` fine-tuned on the **Student Messy Handwritten Dataset (SMHD)** from RMIT University (Nisa, Thom, Ciesielski and Tennakoon, 2023). It is a collection of real student exam papers with crossed-out text, insertions and corrections. Training is done on a free GPU in Google Colab, not on your PC.
 
-**What it was trained on:**
+> **Dataset license:** SMHD is released under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) (non-commercial, attribution required). Keep that in mind if you share or reuse the fine-tuned model.
+
+**Where the training data lives in this repo:**
 
 | Data | Where |
 |---|---|
-| Your own journal line crops (plus augmented copies) | `journal_crops/` (`train_list.txt`, `val_list.txt`, `test_list.txt`) |
-| Pages from other writers (Student Messy Handwritten Dataset, SMHD) | `other_writers/` |
-| An IAM line subset (optional, you build and upload it) | made in the notebook, step 5 |
+| SMHD line crops, cut from SMHD pages by `ocr_training/prepare_smhd_train.py` | `other_writers/` (`train_list.txt`, `val_list.txt`) |
+| Held-out SMHD pages, kept out of training | `eval_others/` |
+| Journal line crops (the author's own handwriting; the Colab notebook can mix these in) | `journal_crops/` (`train_list.txt`, `val_list.txt`, `test_list.txt`) |
 
-Training uses a low learning rate and trains the CTC head only, so the model adapts to handwriting without forgetting what the stock model already knows. The best checkpoint is picked on a validation set that includes other writers, not just your own hand.
+SMHD has no writer IDs, so the prep scripts take one block of consecutive pages per subject as the test set and leave a gap before the training pages. That keeps the same writer from appearing in both. Lines with crossed-out text (`#`) are dropped from training, and spelling mistakes in the labels are kept on purpose.
+
+Training uses a low learning rate and trains the CTC head only, so the model adapts to handwriting without forgetting what the stock model already knows. The best checkpoint is picked on a validation set of SMHD lines (other writers), not only on one person's handwriting.
 
 **Steps:**
 
