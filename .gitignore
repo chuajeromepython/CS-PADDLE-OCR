@@ -3,3 +3,5 @@ __pycache__/
 *.pyc
 debug_output/
 journal_photos/
+SMHD/
+journal_v6_infer/
