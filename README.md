@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://miro.medium.com/v2/resize:fit:1100/format:webp/1*qklqV9yl7bw8tzkyhCALNw.png" alt="CS-PADDLE-OCR" height="250" width="450">
+  <img src="https://miro.medium.com/v2/resize:fit:1100/format:webp/1*qklqV9yl7bw8tzkyhCALNw.png" alt="CS-PADDLE-OCR" height="250" width="500">
 </p>
 
 <p align="center">Handwriting OCR: PaddleOCR (PP-OCRv6) with a fine-tuned recognizer for journal handwriting</p>
