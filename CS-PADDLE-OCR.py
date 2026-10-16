@@ -27,8 +27,9 @@ downloaded/cached -- no reinstall needed. This version of the script:
 
 
 Usage:
-    python CS-PADDLE-OCR.py path/to/test_img3.jpg
-    python CS-PADDLE-OCR.py path/to/test_img3.jpg --rec-model-dir ./iam_finetune_infer
+    python CS-PADDLE-OCR.py path/to/photo.jpg            # uses the fine-tuned model in journal_v7_infer
+    python CS-PADDLE-OCR.py path/to/photo.jpg --stock    # uses the stock PaddleOCR model instead
+    python CS-PADDLE-OCR.py path/to/photo.jpg --rec-model-dir ./some_other_model
 """
 
 import argparse
@@ -135,14 +136,22 @@ def main(image_path, rec_model_dir=None, rec_thresh=0.0, edge_margin=0.0):
     print(f"\nSaved: {out_path}")
 
 if __name__ == "__main__":
+    # The fine-tuned model sitting next to this script is the default.
+    default_rec = os.path.join(os.path.dirname(os.path.abspath(__file__)), "journal_v7_infer")
+    if not os.path.isdir(default_rec):
+        default_rec = None
+
     ap = argparse.ArgumentParser()
     ap.add_argument("image", help="Path to the handwriting photo")
-    ap.add_argument("--rec-model-dir", default=None,
-                    help="Folder of a fine-tuned recognition model (omit for the stock model)")
+    ap.add_argument("--rec-model-dir", default=default_rec,
+                    help="Folder of a fine-tuned recognition model (default: journal_v7_infer next to this script)")
+    ap.add_argument("--stock", action="store_true",
+                    help="Use the stock PaddleOCR recognition model instead of the fine-tuned one")
     ap.add_argument("--rec-thresh", type=float, default=0.0,
                     help="Drop recognized regions below this confidence (default 0 = keep all)")
     ap.add_argument("--edge-margin", type=float, default=0.0,
                     help="Drop short (<=3 char) text within this fraction of the left/right "
                          "image edge, e.g. 0.08 (default 0 = off)")
     args = ap.parse_args()
-    main(args.image, args.rec_model_dir, args.rec_thresh, args.edge_margin)
+    rec_dir = None if args.stock else args.rec_model_dir
+    main(args.image, rec_dir, args.rec_thresh, args.edge_margin)
